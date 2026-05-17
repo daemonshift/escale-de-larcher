@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>L'Escale de Larcher — Bivouacs, gîtes & table en Périgord</title>
+  <meta name="description" content="Bivouacs, gîtes en pierre, tentes sous les arbres et emplacement van en Dordogne, Périgord Noir. On vient pour manger, dormir, boire un verre et ralentir.">
+  <meta name="theme-color" content="#1a2420">
+  <meta property="og:title" content="L'Escale de Larcher — Bivouacs, gîtes & table en Périgord">
+  <meta property="og:description" content="Bivouacs, gîtes, table et pizzeria en Dordogne. Une escale familiale pour dormir, manger, boire un verre et ralentir.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="fr_FR">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="responsive.css">
+  <link rel="stylesheet" href="enhance.css">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LodgingBusiness",
+      "name": "L'Escale de Larcher",
+      "description": "Bivouacs, gîtes, pizzeria et restaurant en Dordogne.",
+      "telephone": "+33678052071",
+      "email": "lescaledelarcher@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "853 route du Soleil",
+        "postalCode": "24250",
+        "addressLocality": "Saint-Aubin de Nabirat",
+        "addressCountry": "FR"
+      },
+      "sameAs": [
+        "https://www.instagram.com/lescale.de.larcher",
+        "https://www.facebook.com/share/1ChnmPaHry/"
+      ]
+    }
+  </script>
+</head>
+<body>
+
+  <!-- ── Top banner ─────────────────────────────────────────────── -->
+  <div class="vb-bann">
+    <span class="numtag">★ Périgord · Dordogne</span>
+    <div class="vb-bann-mid">
+      <span class="numtag">Saison 2026 — réservations ouvertes</span>
+    </div>
+    <span class="numtag">FR · EN · ES</span>
+  </div>
+
+  <!-- ── Nav ────────────────────────────────────────────────────── -->
+  <header class="vb-nav">
+    <a href="index.html" class="vb-mark" aria-label="L'Escale de Larcher — accueil">
+      <span class="vb-mark-l">L'ESCALE</span>
+      <span class="vb-mark-c"><span class="serif-italic">de</span></span>
+      <span class="vb-mark-r">LARCHER</span>
+    </a>
+    <nav class="vb-links" aria-label="Navigation principale">
+      <a href="#vb-domain">01 Le domaine</a>
+      <a href="#vb-stays">02 Hébergements</a>
+      <a href="pizzeria.html">03 Pizzeria</a>
+      <a href="restaurant.html">04 Restaurant</a>
+      <a href="gallery.html">05 Galerie</a>
+      <a href="#vb-contact">06 Contact</a>
+    </nav>
+    <a class="btn btn-primary" href="#vb-contact">Réserver</a>
+    <button class="vb-hamburger" id="hamburger" aria-label="Menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <!-- Mobile menu -->
+  <nav class="vb-mobile-menu" id="mobile-menu" aria-label="Navigation mobile">
+    <span class="numtag-divider">— Le domaine</span>
+    <a href="#vb-domain" onclick="closeMobileMenu()">Le domaine</a>
+    <a href="#vb-stays" onclick="closeMobileMenu()">Hébergements</a>
+    <a href="#vb-story" onclick="closeMobileMenu()">Notre histoire</a>
+    <a href="#vb-around" onclick="closeMobileMenu()">Alentours</a>
+    <span class="numtag-divider">— Table &amp; bar</span>
+    <a href="pizzeria.html">Pizzeria</a>
+    <a href="restaurant.html">Restaurant</a>
+    <span class="numtag-divider">— Album &amp; contact</span>
+    <a href="gallery.html">Galerie</a>
+    <a href="#vb-contact" onclick="closeMobileMenu()">Contact</a>
+    <a class="btn btn-primary" href="#vb-contact" onclick="closeMobileMenu()">Réserver</a>
+  </nav>
+
+  <!-- ── Hero ───────────────────────────────────────────────────── -->
+  <section class="vb-hero">
+    <div class="vb-hero-bg">
+      <div class="img-slot" role="img" aria-label="L'Escale de Larcher — Périgord">
+        <img src="photos/banner.jpeg" alt="L'Escale de Larcher en Dordogne">
+      </div>
+      <div class="vb-hero-tint"></div>
+    </div>
+
+    <div class="vb-hero-grid">
+      <h1 class="vb-h1">
+        Bivouacs,<br>
+        gîtes &amp; <span class="serif-italic">table</span><br>
+        au cœur du <span class="serif-italic">Périgord.</span>
+      </h1>
+
+      <div class="vb-hero-foot">
+        <p class="vb-lede">
+          On y vient pour manger, dormir, boire un verre — et pour
+          ralentir un peu. Que vous soyez à pied, en van, à moto ou
+          en famille, l'Escale vous garde une place.
+        </p>
+        <div class="vb-hero-cta">
+          <a class="btn btn-primary" href="#vb-stays">Trouver mon hébergement</a>
+          <a class="btn-ghost-l" href="#vb-story">Notre histoire →</a>
+        </div>
+        <div class="vb-hero-stats">
+          <div class="vb-stat">
+            <span class="vb-stat-n">4 ha</span>
+            <span class="numtag">de bois &amp; prés</span>
+          </div>
+          <div class="vb-stat">
+            <span class="vb-stat-n">Accueil</span>
+            <span class="numtag">gîtes · bivouacs · vans</span>
+          </div>
+          <div class="vb-stat">
+            <span class="vb-stat-n">2023</span>
+            <span class="numtag">domaine familial</span>
+          </div>
+          <div class="vb-stat">
+            <span class="vb-stat-n">4,8 ★</span>
+            <span class="numtag">110 avis</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Ticker ──────────────────────────────────────────────────── -->
+  <section class="vb-ticker" aria-hidden="true">
+    <div class="vb-ticker-track">
+      <span class="numtag">★</span>
+      <span class="vb-ticker-w">DORMIR</span>
+      <span class="numtag">★</span>
+      <span class="vb-ticker-w serif-italic">manger</span>
+      <span class="numtag">★</span>
+      <span class="vb-ticker-w">BOIRE UN VERRE</span>
+      <span class="numtag">★</span>
+      <span class="vb-ticker-w serif-italic">se baigner</span>
+      <span class="numtag">★</span>
+      <span class="vb-ticker-w">RALENTIR</span>
+      <span class="numtag">★</span>
+      <span class="vb-ticker-w serif-italic">piscine</span>
+      <span class="numtag">★</span>
+      <span class="vb-ticker-w">DORMIR</span>
+      <span class="numtag">★</span>
+      <span class="vb-ticker-w serif-italic">manger</span>
+      <span class="numtag">★</span>
+      <span class="vb-ticker-w">BOIRE UN VERRE</span>
+      <span class="numtag">★</span>
+      <span class="vb-ticker-w serif-italic">se baigner</span>
+      <span class="numtag">★</span>
+      <span class="vb-ticker-w">RALENTIR</span>
+      <span class="numtag">★</span>
+      <span class="vb-ticker-w serif-italic">piscine</span>
+      <span class="numtag">★</span>
+    </div>
+  </section>
+
+  <!-- ── Manifesto ────────────────────────────────────────────────── -->
+  <section class="vb-section vb-mani-wrap">
+    <div class="vb-mani reveal">
+      <div class="vb-mani-l">
+        <span class="numtag">— Chapitre 01 / Le séjour</span>
+        <h2 class="vb-h2">
+          Un lieu vivant,<br>
+          <span class="serif-italic">authentique,</span><br>
+          sans superflu.
+        </h2>
+      </div>
+      <div class="vb-mani-r">
+        <p class="vb-body-serif">
+          Entre la nature, les animaux, le calme, la bière fraîche, la pizza,
+          la piscine — chacun trouve sa place, le temps d'une nuit ou
+          d'un moment partagé.
+        </p>
+        <div class="vb-mani-grid">
+          <div class="vb-feat">
+            <span class="vb-feat-t">— Nature</span>
+            <span class="vb-feat-b">4 ha de bois, prés, sentiers. Coucher de soleil extraordinaire sur la vallée.</span>
+          </div>
+          <div class="vb-feat">
+            <span class="vb-feat-t">— Animaux</span>
+            <span class="vb-feat-b">Cheval, poules, oies, canards.</span>
+          </div>
+          <div class="vb-feat">
+            <span class="vb-feat-t">— Cuisine</span>
+            <span class="vb-feat-b">Pizzas maison du  jeudi → dimanche. Produits du Périgord.</span>
+          </div>
+          <div class="vb-feat">
+            <span class="vb-feat-t">— Piscine</span>
+            <span class="vb-feat-b">Bassin de juin à octobre. Solarium et chaises longues autour.</span>
+          </div>
+          <div class="vb-feat">
+            <span class="vb-feat-t">— Bar</span>
+            <span class="vb-feat-b">Bières locales, vins de Bergerac, softs et jus locaux. Service jusqu'à 23h.</span>
+          </div>
+          <div class="vb-feat">
+            <span class="vb-feat-t">— Calme</span>
+            <span class="vb-feat-b">Pas de wifi dans les chambres. Beaucoup d'étoiles le soir venu.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Hébergements ──────────────────────────────────────────────── -->
+  <!-- ── Section Domaine ── -->
+  <section id="vb-domain" class="ld-domain">
+    <div class="ld-domain-head">
+      <div class="reveal">
+        <span class="numtag">— Interlude / Le domaine</span>
+        <h2 class="vb-h2" style="margin-top:20px">
+          Les <span class="serif-italic">habitants</span><br>
+          du domaine.
+        </h2>
+      </div>
+      <p class="ld-domain-lede reveal reveal-delay-1">
+        Quatre hectares de bois, de prés et de chemins — et une petite
+        compagnie animale qu’on croise au détour d’une terrasse,
+        d’un sentier, d’un coucher de soleil.
+      </p>
+    </div>
+
+    <div class="ld-domain-stream">
+      <article class="ld-creature reveal" data-lightbox="domain">
+        <div class="ld-creature-img">
+          <img src="photos/escale/gallerie/cheval.JPG" alt="Le cheval du domaine" loading="lazy">
+        </div>
+        <div class="ld-creature-head">
+          <h3 class="ld-creature-name">Le cheval</h3>
+          <span class="ld-creature-num">01 / 04</span>
+        </div>
+        <p class="ld-creature-tag">— Compagnon des prés</p>
+      </article>
+
+      <article class="ld-creature reveal reveal-delay-1" data-lightbox="domain">
+        <div class="ld-creature-img">
+          <img src="photos/escale/gallerie/chêvre.JPG" alt="La chèvre du domaine" loading="lazy">
+        </div>
+        <div class="ld-creature-head">
+          <h3 class="ld-creature-name">La chèvre</h3>
+          <span class="ld-creature-num">02 / 04</span>
+        </div>
+        <p class="ld-creature-tag">— Curieuse, en liberté</p>
+      </article>
+
+      <article class="ld-creature reveal reveal-delay-2" data-lightbox="domain">
+        <div class="ld-creature-img">
+          <img src="photos/escale/gallerie/animauxBasseCour.JPG" alt="Animaux de la basse-cour" loading="lazy">
+        </div>
+        <div class="ld-creature-head">
+          <h3 class="ld-creature-name">La basse-cour</h3>
+          <span class="ld-creature-num">03 / 04</span>
+        </div>
+        <p class="ld-creature-tag">— Poules, oies, canards</p>
+      </article>
+
+      <article class="ld-creature reveal reveal-delay-3" data-lightbox="domain">
+        <div class="ld-creature-img">
+          <img src="photos/escale/accueil/coucherDeSoleil.jpg" alt="Les bois au coucher de soleil" loading="lazy">
+        </div>
+        <div class="ld-creature-head">
+          <h3 class="ld-creature-name">Les bois</h3>
+          <span class="ld-creature-num">04 / 04</span>
+        </div>
+        <p class="ld-creature-tag">— Chênes, ombrage, silence</p>
+      </article>
+    </div>
+
+    <div class="ld-forest-band reveal">
+      <img src="photos/point de vue.jpeg" alt="Point de vue sur la vallée en Périgord" loading="lazy">
+      <div class="ld-forest-overlay">
+        <div class="ld-forest-quote">
+          <span class="numtag">— Au crépuscule</span>
+          <p class="ld-forest-quote-text">
+            Quand le jour tombe sur la vallée,<br>
+            <span class="serif-italic">tout ralentit.</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Hébergements ── -->
+  <section id="vb-stays" class="vb-section vb-stays">
+    <div class="vb-stays-head">
+      <span class="numtag">— Chapitre 03 / Hébergements</span>
+      <h2 class="vb-h2">
+        Trois <span class="serif-italic">manières</span> de poser ses valises.
+      </h2>
+      <p class="vb-body-serif" style="max-width:600px">
+        Du gîte à la tente sous les arbres, chaque hébergement
+        a été pensé pour que rien ne déborde sur le suivant.
+      </p>
+    </div>
+
+    <!-- Gîtes -->
+    <article class="vb-stay reveal">
+      <div class="vb-stay-img">
+        <div class="img-slot" role="img" aria-label="Gîte — façade extérieure">
+          <img src="photos/escale/exterieur/gîtes.jpg" alt="Gîte de L'Escale de Larcher">
+          <span class="img-slot-label">Photo gîte</span>
+        </div>
+        <div class="vb-stay-num">
+          <span class="numtag">02·1</span><span>Bâti</span>
+        </div>
+      </div>
+      <div class="vb-stay-body">
+        <h3 class="vb-stay-title">Les gîtes</h3>
+        <span class="numtag vb-stay-sub">2 à 7 personnes · toute l'année · </span>
+        <p class="vb-stay-text">
+           Chaque gîte ouvre sur le jardin, avec terrasse et jardinet.
+        </p>
+        <ul class="vb-stay-tags">
+          <li>Cuisine équipée</li>
+          <li>Salle d'eau</li>
+          <li>2 → 7 personnes</li>
+        </ul>
+        <div class="vb-stay-cta">
+          <a class="btn btn-primary" href="mailto:lescaledelarcher@gmail.com?subject=Disponibilités%20gîtes">Demander les disponibilités</a>
+          <a class="btn btn-ghost" href="tel:+33678052071">Appeler</a>
+        </div>
+      </div>
+    </article>
+
+    <!-- Tentes -->
+    <article class="vb-stay vb-stay-rev reveal">
+      <div class="vb-stay-img">
+        <div class="img-slot" role="img" aria-label="Tentes sous les chênes — sous-bois ombragé">
+          <img src="photos/escale/exterieur/emplacement tentes.jpg" alt="Emplacement tentes de L'Escale de Larcher">
+          <span class="img-slot-label">Photo tentes — sous-bois ombragé</span>
+        </div>
+        <div class="vb-stay-num">
+          <span class="numtag">02·2</span><span>Toile</span>
+        </div>
+      </div>
+      <div class="vb-stay-body">
+        <h3 class="vb-stay-title">Tentes sous les arbres</h3>
+        <span class="numtag vb-stay-sub">Avril → octobre · à partir de 18 €/nuit</span>
+        <p class="vb-stay-text">
+          Un sous-bois de sur deux hectares. Vous plantez votre tente
+          où vous voulez, on s'occupe du reste — sanitaires, douches chaudes,
+          eau potable. Barbecues autorisés sur les emplacements prévus.
+        </p>
+        <ul class="vb-stay-tags">
+          <li>Emplacements ombragés</li>
+          <li>Sanitaires</li>
+          <li>Calme garanti</li>
+        </ul>
+        <div class="vb-stay-cta">
+          <a class="btn btn-primary" href="mailto:lescaledelarcher@gmail.com?subject=Disponibilités%20tentes">Demander les disponibilités</a>
+          <a class="btn btn-ghost" href="tel:+33678052071">Appeler</a>
+        </div>
+      </div>
+    </article>
+
+    <!-- Vans -->
+    <article class="vb-stay reveal">
+      <div class="vb-stay-img">
+        <div class="img-slot" role="img" aria-label="Vue sur la vallée — emplacement van">
+          <img src="photos/escale/accueil/vallée.jpg" alt="Vue sur la vallée depuis L'Escale de Larcher">
+          <span class="img-slot-label">Vue vallée</span>
+        </div>
+        <div class="vb-stay-num">
+          <span class="numtag">02·3</span><span>Roues</span>
+        </div>
+      </div>
+      <div class="vb-stay-body">
+        <h3 class="vb-stay-title">Vans, camping-cars, caravanes</h3>
+        <span class="numtag vb-stay-sub">Toute l'année</span>
+        <p class="vb-stay-text">
+          Une grande prairie ouverte avec vue sur la vallée. Bornes électriques 16A,
+          point d'eau. Vous êtes à proximité du bar, du restaurant
+          et de la piscine. Tarif court séjour pour les voyageurs de passage.
+        </p>
+        <ul class="vb-stay-tags">
+          <li>Électricité 16A</li>
+          <li>Eau</li>
+          <li>Tarif 1-nuit</li>
+          <li>Vue vallée</li>
+          <li>Près du bar</li>
+        </ul>
+        <div class="vb-stay-cta">
+          <a class="btn btn-primary" href="mailto:lescaledelarcher@gmail.com?subject=Disponibilités%20vans">Demander les disponibilités</a>
+          <a class="btn btn-ghost" href="tel:+33678052071">Appeler</a>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <!-- ── Pull quote ────────────────────────────────────────────────── -->
+  <section class="vb-pull">
+    <div class="vb-pull-mark reveal">"</div>
+    <p class="vb-pull-text reveal reveal-delay-1">
+      On vient pour manger, dormir,<br>
+      <span class="serif-italic">boire un verre</span> —<br>
+      on reste pour la sérénité du lieu.
+    </p>
+    <span class="numtag">— Avis Booking · juillet 2025</span>
+  </section>
+
+  <!-- ── Story dark ────────────────────────────────────────────────── -->
+  <section id="vb-story" class="vb-story">
+    <div class="vb-story-grid">
+      <div class="vb-story-l reveal">
+        <span class="numtag">— Chapitre 04 / Histoire</span>
+        <h2 class="vb-h2 vb-h2-light">
+          Un bout de <span class="serif-italic">Périgord</span><br>
+          qu'on partage, simplement.
+        </h2>
+        <p class="vb-body-serif vb-body-light">
+          Larcher, c'est d'abord un nom — celui du lieu-dit, du chemin,
+          de la pierre. Puis un domaine qu'on a remis debout, en gardant
+          ce qui vibrait déjà : les arbres, la lumière du soir, le
+          calme.
+        </p>
+        <p class="vb-body-serif vb-body-light">
+          Aujourd'hui on y dort, on y mange, on y boit un verre. Ni resort,
+          ni terrain de loisirs : une escale familiale, chaleureuse et
+          ouverte à tout le monde.
+        </p>
+        <div class="vb-story-sign">
+          <span class="serif-italic">— L'équipe de L'escale de Larcher</span>
+        </div>
+      </div>
+      <div class="vb-story-r reveal reveal-delay-1">
+        <div class="vb-story-img-1">
+          <div class="img-slot" role="img" aria-label="Terrasse cosy du domaine">
+            <img src="photos/escale/accueil/cosy terrasse.jpeg" alt="Terrasse cosy de L'Escale de Larcher">
+            <span class="img-slot-label">La terrasse</span>
+          </div>
+        </div>
+        <div class="vb-story-img-2">
+          <div class="img-slot" role="img" aria-label="Cheval du domaine">
+            <img src="photos/escale/gallerie/cheval.JPG" alt="Cheval du domaine de L'Escale de Larcher">
+            <span class="img-slot-label">Cheval du domaine</span>
+          </div>
+        </div>
+        <div class="vb-story-img-4">
+          <div class="img-slot" role="img" aria-label="Salade fraîche du domaine">
+            <img src="photos/escale/accueil/salade.jpg" alt="Salade fraîche de L'Escale de Larcher">
+            <span class="img-slot-label">Salade fraîche</span>
+          </div>
+        </div>
+        <div class="vb-story-card" style="padding:0;background:none;overflow:hidden;">
+          <div class="img-slot" role="img" aria-label="Piscine au coucher de soleil">
+            <img src="photos/escale/accueil/piscine-coucher-de-soleil.JPG" alt="Piscine de L'Escale de Larcher au coucher de soleil">
+            <span class="img-slot-label">Piscine au coucher de soleil</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Alentours ─────────────────────────────────────────────────── -->
+  <section id="vb-around" class="vb-section vb-around">
+    <div class="vb-around-head reveal">
+      <span class="numtag">— Chapitre 05 / Aux alentours</span>
+      <h2 class="vb-h2">
+        La <span class="serif-italic">Dordogne,</span> à portée de chemin.
+      </h2>
+    </div>
+    <div class="vb-around-grid reveal reveal-delay-1">
+      <div class="vb-around-card">
+        <div class="vb-around-card-h">
+          <span class="numtag">01 · Eau</span>
+          <span class="numtag">3 km</span>
+        </div>
+        <h4 class="vb-around-card-t">Rivière Dordogne</h4>
+        <p class="vb-body-sm">Plage de galets, baignade surveillée, départ canoë au village voisin.</p>
+      </div>
+      <div class="vb-around-card">
+        <div class="vb-around-card-h">
+          <span class="numtag">02 · Marche</span>
+          <span class="numtag">6 km</span>
+        </div>
+        <h4 class="vb-around-card-t">Sentier des Causses</h4>
+        <p class="vb-body-sm">Boucle de 9 km, sous-bois et points de vue sur la vallée.</p>
+      </div>
+      <div class="vb-around-card">
+        <div class="vb-around-card-h">
+          <span class="numtag">03 · Patrimoine</span>
+          <span class="numtag">12 km</span>
+        </div>
+        <h4 class="vb-around-card-t">Sarlat-la-Canéda</h4>
+        <p class="vb-body-sm">Marché du samedi, ruelles médiévales, foie gras et noix.</p>
+      </div>
+      <div class="vb-around-card">
+        <div class="vb-around-card-h">
+          <span class="numtag">04 · Patrimoine</span>
+          <span class="numtag">18 km</span>
+        </div>
+        <h4 class="vb-around-card-t">Beynac &amp; Castelnaud</h4>
+        <p class="vb-body-sm">Deux forteresses qui se font face au-dessus de la vallée.</p>
+      </div>
+      <div class="vb-around-card">
+        <div class="vb-around-card-h">
+          <span class="numtag">05 · Insolite</span>
+          <span class="numtag">22 km</span>
+        </div>
+        <h4 class="vb-around-card-t">Gouffre de Padirac</h4>
+        <p class="vb-body-sm">Descente en barque dans une rivière souterraine.</p>
+      </div>
+      <div class="vb-around-card">
+        <div class="vb-around-card-h">
+          <span class="numtag">06 · Domaine</span>
+          <span class="numtag">0 km</span>
+        </div>
+        <h4 class="vb-around-card-t">Sur place</h4>
+        <p class="vb-body-sm">Piscine, bar, pizzas, animaux, hamacs, jeux d'enfants.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Gallery ───────────────────────────────────────────────────── -->
+  <section id="vb-gal" class="vb-section vb-gal">
+    <div class="vb-gal-head reveal">
+      <div>
+        <span class="numtag">— Chapitre 06 / Album</span>
+        <h2 class="vb-h2">Un été <span class="serif-italic">en images.</span></h2>
+      </div>
+      <a class="btn btn-ghost" href="#vb-gal">Voir tout l'album →</a>
+    </div>
+    <div class="vb-gal-grid reveal reveal-delay-1">
+      <div class="vb-gal-1">
+        <div class="img-slot" role="img" aria-label="Piscine au coucher de soleil">
+          <img src="photos/escale/accueil/piscine-coucher-de-soleil.JPG" alt="Piscine de L'Escale de Larcher au coucher de soleil">
+          <span class="img-slot-label">Piscine au coucher de soleil</span>
+        </div>
+      </div>
+      <div class="vb-gal-2">
+        <div class="img-slot" role="img" aria-label="Salade du restaurant">
+          <img src="photos/escale/gallerie/salade2.jpg" alt="Salade fraîche de L'Escale de Larcher">
+          <span class="img-slot-label">Salade fraîche</span>
+        </div>
+      </div>
+      <div class="vb-gal-3">
+        <div class="img-slot" role="img" aria-label="Animaux de la basse-cour">
+          <img src="photos/escale/gallerie/animauxBasseCour.JPG" alt="Animaux de la basse-cour de L'Escale de Larcher">
+          <span class="img-slot-label">Basse-cour</span>
+        </div>
+      </div>
+      <div class="vb-gal-4">
+        <div class="img-slot" role="img" aria-label="Chèvre du domaine">
+          <img src="photos/escale/gallerie/chêvre.JPG" alt="Chèvre du domaine de L'Escale de Larcher">
+          <span class="img-slot-label">Chèvre</span>
+        </div>
+      </div>
+      <div class="vb-gal-5">
+        <div class="img-slot" role="img" aria-label="Salade du restaurant">
+          <img src="photos/escale/gallerie/salade3.jpg" alt="Salade maison de L'Escale de Larcher">
+          <span class="img-slot-label">Salade maison</span>
+        </div>
+      </div>
+      <div class="vb-gal-6">
+        <div class="img-slot" role="img" aria-label="Coucher de soleil sur le domaine">
+          <img src="photos/escale/accueil/coucherDeSoleil.jpg" alt="Coucher de soleil sur le domaine de L'Escale de Larcher">
+          <span class="img-slot-label">Coucher de soleil</span>
+        </div>
+      </div>
+      <div class="vb-gal-7">
+        <div class="img-slot" role="img" aria-label="Cheval du domaine">
+          <img src="photos/escale/gallerie/cheval.JPG" alt="Cheval du domaine de L'Escale de Larcher">
+          <span class="img-slot-label">Cheval du domaine</span>
+        </div>
+      </div>
+      <div class="vb-gal-8">
+        <div class="img-slot" role="img" aria-label="Salade fraîche du jardin">
+          <img src="photos/escale/accueil/salade.jpg" alt="Salade du domaine de L'Escale de Larcher">
+          <span class="img-slot-label">Du jardin</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Reviews ───────────────────────────────────────────────────── -->
+  <section class="vb-section vb-rev" style="background:var(--bg-2)">
+    <div class="vb-rev-head reveal">
+      <div>
+        <span class="numtag">— Chapitre 07 / Avis</span>
+        <h2 class="vb-h2">Ils sont passés <span class="serif-italic">par là.</span></h2>
+      </div>
+      <div class="vb-rev-rating">
+        <div class="vb-rev-num"><span class="serif-italic">4,8</span></div>
+        <div>
+          <div class="vb-stars">
+            <span class="star"></span>
+            <span class="star"></span>
+            <span class="star"></span>
+            <span class="star"></span>
+            <span class="star"></span>
+          </div>
+          <span class="numtag">110 avis · Google · Booking · Airbnb</span>
+        </div>
+      </div>
+    </div>
+    <div class="vb-rev-grid reveal reveal-delay-1">
+      <a class="vb-review" href="https://www.google.com/travel/search?gsas=1&ts=EggKAggDCgIIAxocEhoSFAoHCOoPEAUYGBIHCOoPEAUYGRgBMgIQAA&qs=MhRDZ3NJa3BtVjdJQ29tY0hoQVJBQjgC&ap=ugEHcmV2aWV3cw&ictx=111&hl=fr-FR" target="_blank" rel="noopener">
+        <div class="vb-rev-h">
+          <div class="vb-stars">
+            <span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span>
+          </div>
+          <span class="numtag">Google avis · Juillet 2025</span>
+        </div>
+        <p class="vb-rev-text">« Un vrai coup de cœur ! Je ne devais rester qu’une nuit (emplacement camping)… j’en ai passé deux tant je me suis sentie bien. L’accueil est d’une rare chaleur : même en arrivant seule, je me suis immédiatement sentie à ma place, accueillie avec bienveillance, comme chez des amis. Le cadre est paisible, ressourçant, parfait pour déconnecter. Les équipements sont impeccables, rien ne manque. Et alors les pizzas… un vrai régal ! Une parenthèse pleine de douceur et de simplicité que je recommande les yeux fermés. Merci pour ces beaux moments ! »</p>
+        <div class="vb-rev-meta">
+          <span class="serif" style="font-size:18px">Audrey</span>
+          <span class="numtag">Van</span>
+        </div>
+      </a>
+      <a class="vb-review" href="https://www.google.com/travel/search?gsas=1&ts=EggKAggDCgIIAxocEhoSFAoHCOoPEAUYGBIHCOoPEAUYGRgBMgIQAA&qs=MhRDZ3NJa3BtVjdJQ29tY0hoQVJBQjgC&ap=ugEHcmV2aWV3cw&ictx=111&hl=fr-FR" target="_blank" rel="noopener">
+        <div class="vb-rev-h">
+          <div class="vb-stars">
+            <span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span>
+          </div>
+          <span class="numtag">Google avis · Août 2025</span>
+        </div>
+        <p class="vb-rev-text">« Petit séjour rapide en famille
+Nous avons trouvé un sublime petit coin calme et très accueillant. Ideal pour des vacances paisibles avec des enfants un véritable parc de jeu pour les petits, avec par dessus tout un super coin restaurant proposant des produits frais et des très bonnes pizzas a manger sur place ou a emporter. Une belle petite pépite. Dommage que nous n'avons pas plus de temps devant nous... nous serions bien resté. »</p>
+        <div class="vb-rev-meta">
+          <span class="serif" style="font-size:18px">Charléne</span>
+          <span class="numtag">Séjour</span>
+        </div>
+      </a>
+      <a class="vb-review" href="https://www.google.com/travel/search?gsas=1&ts=EggKAggDCgIIAxocEhoSFAoHCOoPEAUYGBIHCOoPEAUYGRgBMgIQAA&qs=MhRDZ3NJa3BtVjdJQ29tY0hoQVJBQjgC&ap=ugEHcmV2aWV3cw&ictx=111&hl=fr-FR" target="_blank" rel="noopener">
+        <div class="vb-rev-h">
+          <div class="vb-stars">
+            <span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span>
+          </div>
+          <span class="numtag">Google avis · Juillet 2025</span>
+        </div>
+        <p class="vb-rev-text">« Un lieu magnifique.
+L’air y est vraiment particulier : feuillus et conifères mêlent leurs senteurs et offrent un vrai parfum de forêt.
+Il y a beaucoup d’espace, c’est idéal pour se promener et se détendre.
+Le restaurant propose une cuisine savoureuse avec des produits frais — même les feuilles de salade ont un goût unique .
+Les hôtes sont chaleureux, accueillants et attentionnés.
+Et les environs valent le détour : il y a plein de choses à voir.
+Je recommande vivement »</p>
+        <div class="vb-rev-meta">
+          <span class="serif" style="font-size:18px">Olga</span>
+          <span class="numtag">Gîte</span>
+        </div>
+      </a>
+      <a class="vb-review" href="https://www.google.com/travel/search?gsas=1&ts=EggKAggDCgIIAxocEhoSFAoHCOoPEAUYGBIHCOoPEAUYGRgBMgIQAA&qs=MhRDZ3NJa3BtVjdJQ29tY0hoQVJBQjgC&ap=ugEHcmV2aWV3cw&ictx=111&hl=fr-FR" target="_blank" rel="noopener">
+        <div class="vb-rev-h">
+          <div class="vb-stars">
+            <span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span>
+          </div>
+          <span class="numtag">Google avis · Août 2024</span>
+        </div>
+        <p class="vb-rev-text">« Une chose à dire : endroit superbe, sauvage, animaux en liberté, idéal pour les enfants avec beaucoup d'espace des jeux à gogos, piscine au top pour les moments de chaleur, énormément d'activités et de visites aux alentours. Un camping familial accueillant, comme on en fait plus de nos jours. Une vraie pépite. Nous devions rester 2 nuits, on a fini par une semaine complète. Adresse à partager (mention spéciale pour les pizzas excellente). Au plaisir de revenir l'année prochaine. »</p>
+        <div class="vb-rev-meta">
+          <span class="serif" style="font-size:18px">Stella</span>
+          <span class="numtag">Tente</span>
+        </div>
+      </a>
+    </div>
+    <div style="text-align:center; margin-top:40px;">
+      <a class="btn btn-primary" href="https://www.google.com/travel/search?gsas=1&ts=EggKAggDCgIIAxocEhoSFAoHCOoPEAUYGBIHCOoPEAUYGRgBMgIQAA&qs=MhRDZ3NJa3BtVjdJQ29tY0hoQVJBQjgC&ap=ugEHcmV2aWV3cw&ictx=111&hl=fr-FR" target="_blank" rel="noopener">
+        Voir les 110 avis sur Google Maps →
+      </a>
+    </div>
+  </section>
+
+  <!-- ── Contact dark ──────────────────────────────────────────────── -->
+  <section id="vb-contact" class="vb-contact">
+    <div class="vb-contact-grid">
+      <div class="vb-contact-l">
+        <span class="numtag">— Chapitre 08 / Venir nous voir</span>
+        <h2 class="vb-h2 vb-h2-light">
+          <span class="serif-italic">Réservez,</span><br>
+          on garde une place.
+        </h2>
+        <div class="vb-contact-rows">
+          <div>
+            <span class="numtag">Adresse</span>
+          <span class="vb-c-val">853 route du Soleil<br>24250 Saint-Aubin de Nabirat · France</span>
+          </div>
+          <div>
+            <span class="numtag">Téléphones</span>
+            <span class="vb-c-val serif-italic">
+              <a href="tel:+33678052071" style="color:inherit;text-decoration:none">Bivouacs: +33 6 78 05 20 71<br>Gîtes: +33 7 77 57 28 00<br>Pizzeria: +33 7 77 03 62 02</a>
+            </span>
+          </div>
+          <div>
+            <span class="numtag">Email</span>
+            <span class="vb-c-val serif-italic">
+              <a href="mailto:lescaledelarcher@gmail.com" style="color:inherit;text-decoration:none">lescaledelarcher@gmail.com</a>
+            </span>
+          </div>
+          <div>
+            <span class="numtag">Saison</span>
+            <span class="vb-c-val">Mai → Octobre · gîtes toute l'année</span>
+          </div>
+        </div>
+        <div class="vb-contact-cta">
+          <a class="btn vb-btn-light" href="tel:+33678052071">Appeler</a>
+          <a class="btn vb-btn-light" href="mailto:lescaledelarcher@gmail.com?subject=Demande%20de%20réservation">Demander un séjour</a>
+          <a class="btn btn-ghost vb-btn-ghost" href="https://www.google.com/maps/search/?api=1&query=853%20route%20du%20Soleil%2C%2024250%20Saint-Aubin%20de%20Nabirat%2C%20France" target="_blank" rel="noopener">Itinéraire Google Maps</a>
+        </div>
+      </div>
+      <div class="vb-contact-r">
+        <div class="vb-map">
+          <iframe
+            src="https://maps.google.com/maps?q=44.72494005725803,1.285374070068771&hl=fr&z=15&output=embed"
+            width="100%"
+            height="100%"
+            style="border:0; display:block;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="L'Escale de Larcher — carte">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Footer ────────────────────────────────────────────────────── -->
+  <footer class="vb-foot">
+    <div class="vb-foot-mark">
+      <div class="vb-foot-big">L'ESCALE <span class="serif-italic">de</span> LARCHER</div>
+      <span class="numtag">Périgord · Dordogne · France</span>
+    </div>
+    <div class="vb-foot-grid">
+      <div>
+        <span class="numtag">Le lieu</span>
+        <a href="#vb-stays">Hébergements</a>
+        <a href="pizzeria.html">Bar · Pizzeria</a>
+        <a href="restaurant.html">Restaurant</a>
+        <a href="#vb-around">Piscine</a>
+      </div>
+      <div>
+        <span class="numtag">Réserver</span>
+        <a href="tel:+33678052071">Téléphone</a>
+        <a href="mailto:lescaledelarcher@gmail.com">Email</a>
+        <a href="#vb-contact">FAQ · Conditions</a>
+        <a href="https://www.google.com/maps/search/?api=1&query=853%20route%20du%20Soleil%2C%2024250%20Saint-Aubin%20de%20Nabirat%2C%20France" target="_blank" rel="noopener">Plan d'accès</a>
+      </div>
+      <div>
+        <span class="numtag">Suivre</span>
+        <a href="https://www.instagram.com/lescale.de.larcher" target="_blank" rel="noopener">Instagram @lescale.de.larcher</a>
+        <a href="https://www.facebook.com/share/1ChnmPaHry/" target="_blank" rel="noopener">Facebook</a>
+      </div>
+      <div>
+        <span class="numtag">Légal</span>
+        <a href="mentions-legales.html">Mentions légales</a>
+        <a href="confidentialite.html">Confidentialité</a>
+        <a href="cookies.html">Cookies</a>
+      </div>
+    </div>
+    <div class="vb-foot-bot">
+      <span class="numtag">© 2026 — L'Escale de Larcher. Tous droits réservés.</span>
+      <span class="numtag">Site réalisé par daemonshift ✦</span>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile menu toggle
+    const hamburger = document.getElementById('hamburger');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    function closeMobileMenu() {
+      mobileMenu.classList.remove('open');
+      hamburger.setAttribute('aria-expanded', 'false');
+    }
+
+    hamburger.addEventListener('click', () => {
+      const isOpen = mobileMenu.classList.toggle('open');
+      hamburger.setAttribute('aria-expanded', isOpen);
+    });
+
+    document.addEventListener('click', (e) => {
+      if (!hamburger.contains(e.target) && !mobileMenu.contains(e.target)) {
+        closeMobileMenu();
+      }
+    });
+
+    const nav = document.querySelector('.vb-nav');
+    const observer = new IntersectionObserver(
+      ([e]) => nav.classList.toggle('scrolled', !e.isIntersecting),
+      { threshold: 0, rootMargin: '-1px 0px 0px 0px' }
+    );
+    observer.observe(document.querySelector('.vb-hero'));
+  </script>
+
+  <style>
+    .vb-nav.scrolled { box-shadow: 0 1px 24px rgba(26,36,32,0.10); }
+  </style>
+
+  <script src="enhance.js" defer></script>
+
+</body>
+</html>

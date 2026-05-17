@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pizzeria — L'Escale de Larcher · Artisanale en Périgord</title>
+  <meta name="description" content="Pizzas artisanales, pâte maison, produits du Périgord. Service jeudi → dimanche, 18h à 22h30. Terrasse, bière fraîche, ambiance conviviale.">
+  <meta name="theme-color" content="#1a2420">
+  <meta property="og:title" content="Pizzeria — L'Escale de Larcher">
+  <meta property="og:description" content="Pizzas artisanales, pâte maison, terrasse et produits du Périgord.">
+  <meta property="og:type" content="restaurant">
+  <meta property="og:locale" content="fr_FR">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="responsive.css">
+  <link rel="stylesheet" href="pages.css">
+  <link rel="stylesheet" href="enhance.css">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "name": "Pizzeria — L'Escale de Larcher",
+      "servesCuisine": "Pizza",
+      "telephone": "+33777036202",
+      "email": "lescaledelarcher@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "853 route du Soleil",
+        "postalCode": "24250",
+        "addressLocality": "Saint-Aubin de Nabirat",
+        "addressCountry": "FR"
+      },
+      "sameAs": [
+        "https://www.instagram.com/lescale.de.larcher",
+        "https://www.facebook.com/share/1ChnmPaHry/"
+      ]
+    }
+  </script>
+</head>
+<body>
+
+  <!-- ── Top banner ─────────────────────────────────────────────── -->
+  <div class="pg-bann">
+    <span class="numtag">★ Périgord · Dordogne</span>
+    <span class="numtag">Service jeudi → dimanche · 18h → 22h30</span>
+    <span class="numtag">+33 7 77 03 62 02</span>
+  </div>
+
+  <!-- ── Nav ────────────────────────────────────────────────────── -->
+  <header class="vb-nav pg-nav">
+    <a href="index.html" class="vb-mark" aria-label="L'Escale de Larcher — accueil">
+      <span class="vb-mark-l">L'ESCALE</span>
+      <span class="vb-mark-c"><span class="serif-italic">de</span></span>
+      <span class="vb-mark-r">LARCHER</span>
+    </a>
+    <nav class="vb-links" aria-label="Navigation principale">
+      <a href="index.html">Accueil</a>
+      <a href="pizzeria.html" class="active">Pizzeria</a>
+      <a href="restaurant.html">Restaurant</a>
+      <a href="index.html#vb-stays">Hébergements</a>
+      <a href="gallery.html">Galerie</a>
+      <a href="index.html#vb-contact">Contact</a>
+    </nav>
+    <a class="btn btn-primary" href="#reserv">Réserver une table</a>
+    <button class="vb-hamburger" id="hamburger" aria-label="Menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <!-- Mobile menu -->
+  <nav class="vb-mobile-menu" id="mobile-menu" aria-label="Navigation mobile">
+    <a href="index.html">Accueil</a>
+    <a href="pizzeria.html" class="active">Pizzeria</a>
+    <a href="restaurant.html">Restaurant</a>
+    <a href="index.html#vb-stays">Hébergements</a>
+    <a href="gallery.html">Galerie</a>
+    <a href="index.html#vb-contact">Contact</a>
+    <a class="btn btn-primary" href="#reserv">Réserver une table</a>
+  </nav>
+
+  <!-- ── Hero ───────────────────────────────────────────────────── -->
+  <section class="pg-hero pg-hero-pizza">
+    <div class="pg-hero-l reveal">
+      <span class="numtag">— La pizzeria · Artisanale</span>
+      <h1 class="pg-h1">
+        On garnit,<br>
+        on enfourne,<br>
+        <span class="serif-italic">on partage.</span>
+      </h1>
+      <p class="vb-body-serif pg-hero-body">
+        Pâte maison, ingrédients sélectionnés, légumes du potager
+        d'à-côté. Une carte de pizzas signées, à manger en terrasse
+        — pieds nus, bière fraîche à portée.
+      </p>
+      <div class="pg-hero-cta">
+        <a class="btn btn-primary" href="#reserv">Réserver une table</a>
+        <a class="btn btn-ghost" href="#menu-pizza">Voir la carte ↓</a>
+      </div>
+      <div class="pg-hero-stats">
+        <div>
+          <b>Pâte</b>
+          <span> faite maison</span>
+        </div>
+        <div>
+          <b>18</b>
+          <span>pizzas à la carte</span>
+        </div>
+        <div>
+          <b>Terrasse</b>
+          <span>en soirée</span>
+        </div>
+      </div>
+    </div>
+    <div class="pg-hero-r reveal reveal-delay-1">
+      <div class="img-slot" role="img" aria-label="Pizza maison — gros plan">
+        <img src="photos/escale/pizzeria/grosPlanPizza.JPG" alt="Pizza maison de L'Escale de Larcher" loading="lazy">
+        <span class="img-slot-label">Pizza maison</span>
+      </div>
+      <div class="pg-hero-stamp">
+        <span class="serif-italic">artisanal</span>
+        <span class="numtag">depuis 2023</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Green band ─────────────────────────────────────────────── -->
+  <section class="pg-band" aria-hidden="true">
+    <div class="pg-band-track">
+      <span class="numtag">★</span>
+      <span class="pg-band-w">FOUR</span>
+      <span class="numtag">★</span>
+      <span class="pg-band-w serif-italic">pâte maison</span>
+      <span class="numtag">★</span>
+      <span class="pg-band-w">PRODUITS LOCAUX</span>
+      <span class="numtag">★</span>
+      <span class="pg-band-w serif-italic">à partager</span>
+      <span class="numtag">★</span>
+      <span class="pg-band-w">TERRASSE</span>
+      <span class="numtag">★</span>
+      <span class="pg-band-w serif-italic">bière fraîche</span>
+      <span class="numtag">★</span>
+      <span class="pg-band-w">ARTISANAL</span>
+      <span class="numtag">★</span>
+      <span class="pg-band-w serif-italic">pâte maison</span>
+      <span class="numtag">★</span>
+      <span class="pg-band-w">PRODUITS LOCAUX</span>
+      <span class="numtag">★</span>
+      <span class="pg-band-w serif-italic">à partager</span>
+      <span class="numtag">★</span>
+      <span class="pg-band-w">TERRASSE</span>
+      <span class="numtag">★</span>
+      <span class="pg-band-w serif-italic">bière fraîche</span>
+      <span class="numtag">★</span>
+    </div>
+  </section>
+
+  <!-- ── Carte des pizzas ────────────────────────────────────────── -->
+  <section id="menu-pizza" class="vb-section pg-menu">
+    <div class="pg-menu-head reveal">
+      <span class="numtag">— La carte / 18 pizzas</span>
+      <h2 class="vb-h2">À la carte, <span class="serif-italic">faites maison.</span></h2>
+      <p class="vb-body-serif" style="max-width:600px;color:var(--ink-soft)">
+        Toutes nos pizzas sont en 33 cm. 🌿 Végétarienne.
+      </p>
+    </div>
+
+    <div class="pg-menu-cols pg-menu-cols-3 reveal reveal-delay-1">
+
+      <!-- Base tomate -->
+      <div>
+        <h3 class="pg-menu-cat">— Base tomate</h3>
+
+        <div class="pg-mi">
+          <div class="pg-mi-top">
+            <span class="pg-mi-n">01</span>
+            <span class="pg-mi-name serif">Chicouf</span>
+            <span class="pg-mi-dots"></span>
+            <span class="pg-mi-price">9,5 €</span>
+          </div>
+          <div class="pg-mi-bot">
+            <p class="pg-mi-desc">Sauce tomate, mozzarella, jambon.</p>
+          </div>
+        </div>
+
+        <div class="pg-mi">
+          <div class="pg-mi-top">
+            <span class="pg-mi-n">02</span>
+            <span class="pg-mi-name serif">Basilic 🌿</span>
+            <span class="pg-mi-dots"></span>
+            <span class="pg-mi-price">14,00 €</span>
+          </div>
+          <div class="pg-mi-bot">
+            <p class="pg-mi-desc">Sauce tomate, mozzarella, burrata, basilic, crème balsamique, roquette.</p>
+          </div>
+        </div>
+
+        <div class="pg-mi">
+          <div class="pg-mi-top">
+            <span class="pg-mi-n">03</span>
+            <span class="pg-mi-name serif">Reine</span>
+            <span class="pg-mi-dots"></span>
+            <span class="pg-mi-price">12,50 €</span>
+          </div>
+          <div class="pg-mi-bot">
+            <p class="pg-mi-desc">Sauce tomate, mozzarella, champignons, jambon.</p>
+          </div>
+        </div>
+
+        <div class="pg-mi">
+          <div class="pg-mi-top">
+            <span class="pg-mi-n">04</span>
+            <span class="pg-mi-name serif">Poulette de l'Escale</span>
+            <span class="pg-mi-dots"></span>
+            <span class="pg-mi-price">12,50 €</span>
+          </div>
+          <div class="pg-mi-bot">
+            <p class="pg-mi-desc">Sauce tomate, mozzarella, champignons, poulet, œuf.</p>
+          </div>
+        </div>
+
+        <div class="pg-mi">
+          <div class="pg-mi-top">
+            <span class="pg-mi-n">05</span>
+            <span class="pg-mi-name serif">4 Fromages 🌿</span>
+            <span class="pg-mi-dots"></span>
+            <span class="pg-mi-price">13,50 €</span>
+          </div>
+          <div class="pg-mi-bot">
+            <p class="pg-mi-desc">Sauce tomate, mozzarella, parmesan, roquefort, rocamadour.</p>
+          </div>
+        </div>
+
+        <div class="pg-mi">
+          <div class="pg-mi-top">
+            <span class="pg-mi-n">06</span>
+            <span class="pg-mi-name serif">Oriental</span>
+            <span class="pg-mi-dots"></span>
+            <span class="pg-mi-price">13 €</span>
+          </div>
+          <div class="pg-mi-bot">
+            <p class="pg-mi-desc">Sauce tomate, mozzarella, poivrons, chorizo, oignons rouges.</p>
+          </div>
+        </div>
+
+        <div class="pg-mi">
+          <div class="pg-mi-top">
+            <span class="pg-mi-n">07</span>
+            <span class="pg-mi-name serif">Garden 🌿</span>
+            <span class="pg-mi-dots"></span>
+            <span class="pg-mi-price">12,50 €</span>
+          </div>
+          <div class="pg-mi-bot">
+            <p class="pg-mi-desc">Sauce tomate, mozzarella, aubergines, champignons, courgettes, poivrons, tomates cerises, pesto, œuf.</p>
+          </div>
+        </div>
+
+        <div class="pg-mi">
+          <div class="pg-mi-top">
+            <span class="pg-mi-n">08</span>
+            <span class="pg-mi-name serif">T-Rex</span>
+            <span class="pg-mi-dots"></span>
+            <span class="pg-mi-price">14,50 €</span>
+          </div>
+          <div class="pg-mi-bot">
+            <p class="pg-mi-desc">Sauce tomate, mozzarella, chorizo, viande hachée, merguez, poivrons, oignons rouges, œuf.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Base crème -->
+      <div>
+        <h3 class="pg-menu-cat">— Base crème</h3>
+
+        <div class="pg-mi">
+          <div class="pg-mi-top">
+            <span class="pg-mi-n">09</span>
+            <span class="pg-mi-name serif">Rocamadour 🌿</span>
+            <span class="pg-mi-dots"></span>
+            <span class="pg-mi-price">13 €</span>
+          </div>
+          <div class="pg-mi-bot">
+            <p class="pg-mi-desc">Crème fraîche, mozzarella, rocamadour, miel, noix, roquette.</p>
+          </div>
+        </div>
+
+        <div class="pg-mi">
+          <div class="pg-mi-top">
+            <span class="pg-mi-n">10</span>
+            <span class="pg-mi-name serif">Yaute</span>
+            <span class="pg-mi-dots"></span>
+            <span class="pg-mi-price">14,50 €</span>
+          </div>
+          <div class="pg-mi-bot">
+            <p class="pg-mi-desc">Crème fraîche, mozzarella, lardons, reblochon, pommes de terre, oignons rouges.</p>
+          </div>
+        </div>
+
+        <div class="pg-mi">
+          <div class="pg-mi-top">
+            <span class="pg-mi-n">12</span>
+            <span class="pg-mi-name serif">Périgourdine</span>
+            <span class="pg-mi-dots"></span>
+            <span class="pg-mi-price">15,50 €</span>
+          </div>
+          <div class="pg-mi-bot">
+            <p class="pg-mi-desc">Crème fraîche, mozzarella, gésiers, magret de canard, rocamadour, oignons rouges, huile de truffe.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Nouvelles pizzas — 3e colonne -->
+      <div>
+        <h3 class="pg-menu-cat">— Nouvelles pizzas</h3>
+
+        <div class="pg-mi">
+          <div class="pg-mi-top">
+            <span class="pg-mi-n">13</span>
+            <span class="pg-mi-name serif">Anchoïade</span>
+            <span class="pg-mi-dots"></span>
+            <span class="pg-mi-price">13,50 €</span>
+          </div>
+          <div class="pg-mi-bot">
+            <p class="pg-mi-desc">Sauce tomate, mozzarella, câpres, anchois, oignons.</p>
+          </div>
+        </div>
+
+        <div class="pg-mi">
+          <div class="pg-mi-top">
+            <span class="pg-mi-n">14</span>
+            <span class="pg-mi-name serif">Burger</span>
+            <span class="pg-mi-dots"></span>
+            <span class="pg-mi-price">14,50 €</span>
+          </div>
+          <div class="pg-mi-bot">
+            <p class="pg-mi-desc">Sauce tomate, mozzarella, steak haché, oignons, pickles, cheddar, sauce burger, œuf.</p>
+          </div>
+        </div>
+
+        <div class="pg-mi">
+          <div class="pg-mi-top">
+            <span class="pg-mi-n">15</span>
+            <span class="pg-mi-name serif">La Calzone</span>
+            <span class="pg-mi-dots"></span>
+            <span class="pg-mi-price">13,50 €</span>
+          </div>
+          <div class="pg-mi-bot">
+            <p class="pg-mi-desc">Sauce tomate, mozzarella, champignons, jambon, œuf, crème fraîche.</p>
+          </div>
+        </div>
+
+        <div class="pg-mi">
+          <div class="pg-mi-top">
+            <span class="pg-mi-n">16</span>
+            <span class="pg-mi-name serif">La Man</span>
+            <span class="pg-mi-dots"></span>
+            <span class="pg-mi-price">15 €</span>
+          </div>
+          <div class="pg-mi-bot">
+            <p class="pg-mi-desc">Crème, mozzarella, boursin, parmesan, tomates cerises, œuf, burrata, roquette, pesto, crème balsamique.</p>
+          </div>
+        </div>
+
+        <div class="pg-mi">
+          <div class="pg-mi-top">
+            <span class="pg-mi-n">17</span>
+            <span class="pg-mi-name serif">Forestière</span>
+            <span class="pg-mi-dots"></span>
+            <span class="pg-mi-price">13,50 €</span>
+          </div>
+          <div class="pg-mi-bot">
+            <p class="pg-mi-desc">Sauce tomate, mozzarella, champignons, lardons, œuf, crème balsamique.</p>
+          </div>
+        </div>
+
+        <div class="pg-mi">
+          <div class="pg-mi-top">
+            <span class="pg-mi-n">18</span>
+            <span class="pg-mi-name serif">La Océ</span>
+            <span class="pg-mi-dots"></span>
+            <span class="pg-mi-price">13 €</span>
+          </div>
+          <div class="pg-mi-bot">
+            <p class="pg-mi-desc">Sauce tomate, mozzarella, poulet, oignons, chorizo.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="pg-menu-foot">
+      <div>
+        <span class="numtag">— Allergies &amp; régimes</span>
+        <span>Versions végétariennes disponibles · Informez-nous de vos allergies</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Photos ──────────────────────────────────────────────────── -->
+  <section class="vb-section pg-gal-section">
+    <div class="pg-gal-grid reveal">
+      <div class="pg-g-1">
+        <div class="img-slot" role="img" aria-label="Pizza maison — gros plan">
+          <img src="photos/pizza-artisanale.jpeg" alt="Pizza maison de L'Escale de Larcher" loading="lazy">
+          <span class="img-slot-label">Pizza maison</span>
+        </div>
+      </div>
+      <div class="pg-g-2">
+        <div class="img-slot" role="img" aria-label="Préparation de la pâte à pizza">
+          <img src="photos/escale/pizzeria/pateAPizza.JPG" alt="Préparation de la pâte à pizza de L'Escale de Larcher" loading="lazy">
+          <span class="img-slot-label">Pâte maison</span>
+        </div>
+      </div>
+      <div class="pg-g-3">
+        <div class="img-slot" role="img" aria-label="Pizza maison — autre vue">
+          <img src="photos/escale/pizzeria/grosPlanPizza2.JPG" alt="Pizza artisanale de L'Escale de Larcher" loading="lazy">
+          <span class="img-slot-label">Artisanale</span>
+        </div>
+      </div>
+      <div class="pg-g-4">
+        <div class="img-slot" role="img" aria-label="Salade mojito et boissons en terrasse">
+          <img src="photos/escale/pizzeria/mojitosalade.jpg" alt="Salade et boissons à la pizzeria de L'Escale de Larcher" loading="lazy">
+          <span class="img-slot-label">En terrasse</span>
+        </div>
+      </div>
+      <div class="pg-g-5">
+        <div class="img-slot" role="img" aria-label="Logo L'Escale de Larcher">
+          <img src="photos/logo-escale.jpeg" alt="Logo L'Escale de Larcher — Gîtes, Camping, Pizzeria, Restaurant" loading="lazy">
+          <span class="img-slot-label">L'Escale de Larcher</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Pratique + CTA ──────────────────────────────────────────── -->
+  <section id="reserv" class="pg-practical">
+    <div class="pg-practical-grid">
+      <div>
+        <span class="numtag">— Service</span>
+        <h3 class="pg-pr-t">Jeudi → dimanche</h3>
+        <h3 class="pg-pr-t">Tous les soirs en juillet &amp; août</h3>
+        <p>18h00 → 22h30</p>
+      </div>
+      <div>
+        <span class="numtag">— Réserver</span>
+        <h3 class="pg-pr-t"><a href="tel:+33777036202" class="pg-pr-link">+33 7 77 03 62 02</a></h3>
+        <p>Réservation conseillée<br>Table simple, table longue, terrasse — à votre convenance</p>
+      </div>
+      <div>
+        <span class="numtag">— À emporter</span>
+        <h3 class="pg-pr-t">Pizza à emporter</h3>
+        <p>Commandes au comptoir ou par téléphone</p>
+      </div>
+    </div>
+    <div class="pg-cta-band">
+      <h3 class="vb-h2-sm">
+        Une table <span class="serif-italic">vous attend.</span>
+      </h3>
+      <a class="btn btn-primary" href="tel:+33777036202">Réserver maintenant</a>
+    </div>
+  </section>
+
+  <!-- ── Footer ─────────────────────────────────────────────────── -->
+  <footer class="pg-foot">
+    <div class="pg-foot-grid">
+      <div>
+        <div class="pg-foot-big">L'ESCALE <span class="serif-italic">de</span> LARCHER</div>
+        <span class="numtag">853 route du Soleil · 24250 Saint-Aubin de Nabirat</span>
+        <span class="numtag">Périgord · Dordogne</span>
+        <a class="btn-link" href="https://www.google.com/maps/search/?api=1&query=853%20route%20du%20Soleil%2C%2024250%20Saint-Aubin%20de%20Nabirat%2C%20France" target="_blank" rel="noopener">Itinéraire Google Maps →</a>
+      </div>
+      <div>
+        <span class="numtag">Service</span>
+        <span>Jeu · Ven · Sam · Dim</span>
+        <span>18h00 → 22h30</span>
+        <span>Bar jusqu'à 23h</span>
+      </div>
+      <div>
+        <span class="numtag">Réserver</span>
+        <span><a href="tel:+33777036202">+33 7 77 03 62 02</a></span>
+        <a href="mailto:lescaledelarcher@gmail.com">lescaledelarcher@gmail.com</a>
+      </div>
+      <div>
+        <span class="numtag">Suivre</span>
+        <a href="https://www.instagram.com/lescale.de.larcher" target="_blank" rel="noopener">Instagram @lescale.de.larcher</a>
+        <a href="https://www.facebook.com/share/1ChnmPaHry/" target="_blank" rel="noopener">Facebook</a>
+      </div>
+    </div>
+    <div class="pg-foot-bottom">
+      <span class="numtag">© 2026 — L'Escale de Larcher. Tous droits réservés.</span>
+      <span class="numtag">Site réalisé par daemonshift ✦</span>
+    </div>
+  </footer>
+
+  <script src="enhance.js" defer></script>
+
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const mobileMenu = document.getElementById('mobile-menu');
+    hamburger.addEventListener('click', () => {
+      const isOpen = mobileMenu.classList.toggle('open');
+      hamburger.setAttribute('aria-expanded', isOpen);
+    });
+    document.addEventListener('click', (e) => {
+      if (!hamburger.contains(e.target) && !mobileMenu.contains(e.target)) {
+        mobileMenu.classList.remove('open');
+        hamburger.setAttribute('aria-expanded', false);
+      }
+    });
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        mobileMenu.classList.remove('open');
+        hamburger.setAttribute('aria-expanded', false);
+      }
+    });
+  </script>
+
+</body>
+</html>

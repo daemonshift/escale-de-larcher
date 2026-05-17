@@ -1,0 +1,108 @@
+/* ================================================================
+   L'Escale de Larcher — Responsive overrides
+   Breakpoints: 1080px (tablet) · 640px (mobile)
+   ================================================================ */
+
+@media (max-width: 1080px) {
+  .vb-bann { flex-wrap: wrap; gap: 8px; padding: 8px 24px; }
+  .vb-nav { padding: 18px 24px; }
+  .vb-links { display: none; }
+  .vb-hamburger { display: flex; }
+  .vb-mark-l, .vb-mark-r { font-size: 22px; }
+
+  .vb-hero { height: auto; min-height: 720px; }
+  .vb-hero-grid { padding: 40px 32px; }
+  .vb-hero-foot { grid-template-columns: 1fr; gap: 24px; }
+  .vb-hero-cta { grid-column: 1; justify-self: flex-start; flex-wrap: wrap; }
+  .vb-hero-stats { grid-template-columns: repeat(2, 1fr); }
+
+  .vb-section { padding: 80px 32px; }
+  .vb-section.vb-mani-wrap { padding: 60px 0; }
+
+  .vb-mani { grid-template-columns: 1fr; gap: 32px; padding: 60px 40px; margin: 0 32px; }
+  .vb-mani-grid { grid-template-columns: 1fr; }
+  .vb-mani-r { padding-top: 0; }
+
+  .vb-stay { grid-template-columns: 1fr; gap: 32px; padding: 40px 0; }
+  .vb-stay-rev .vb-stay-img { order: 0; }
+
+  .vb-pull { padding: 80px 32px; }
+
+  .vb-story { padding: 80px 32px; }
+  .vb-story-grid { grid-template-columns: 1fr; gap: 40px; }
+
+  .vb-around-grid { grid-template-columns: repeat(2, 1fr); }
+
+  .vb-gal-grid { columns: 2; }
+  .vb-gal-grid > div { break-inside: avoid; margin-bottom: 10px; }
+
+  .vb-rev-head { flex-direction: column; align-items: flex-start; gap: 24px; }
+  .vb-rev-grid { grid-template-columns: 1fr; }
+
+  .vb-contact { padding: 80px 32px; }
+  .vb-contact-grid { grid-template-columns: 1fr; gap: 40px; }
+
+  .vb-foot { padding: 60px 32px 24px; }
+  .vb-foot-grid { grid-template-columns: 1fr 1fr; gap: 24px; }
+
+  .vb-ticker-w { font-size: 36px; }
+  .vb-ticker-w.serif-italic { font-size: 34px; }
+}
+
+@media (max-width: 640px) {
+  .vb-bann { padding: 8px 16px; }
+  .vb-bann .numtag { font-size: 9px; }
+  .vb-nav { padding: 14px 16px; }
+  .vb-mark-l, .vb-mark-r { font-size: 18px; }
+  .vb-mark-c { font-size: 16px; }
+
+  .vb-hero { min-height: 640px; }
+  .vb-hero-grid { padding: 32px 16px 24px; }
+  .vb-hero-eye { flex-direction: column; gap: 4px; }
+  .vb-lede { font-size: 18px; }
+  .vb-hero-stats { grid-template-columns: 1fr 1fr; gap: 12px; padding-top: 16px; margin-top: 24px; }
+  .vb-stat-n { font-size: 28px; }
+
+  .vb-section { padding: 56px 20px; }
+  .vb-section.vb-mani-wrap { padding: 40px 0; }
+  .vb-mani { padding: 40px 24px; margin: 0 20px; }
+  .vb-stays-head,
+  .vb-around-head,
+  .vb-rev-head,
+  .vb-mani-l { gap: 16px; }
+
+  .vb-stay-cta { flex-direction: column; align-items: stretch; }
+  .vb-stay-cta .btn { justify-content: center; }
+  .vb-stay-tags { gap: 4px; }
+  .vb-stay-tags li { font-size: 10px; padding: 4px 7px; }
+  .vb-stay-num { font-size: 11px; padding: 6px 10px; gap: 6px; }
+
+  .vb-pull-mark { font-size: 80px; }
+
+  .vb-story-r { grid-template-columns: 1fr; }
+  .vb-story-img-1 { grid-column: 1; grid-row: 1; }
+  .vb-story-img-2 { grid-column: 1; grid-row: 2; }
+  .vb-story-card { grid-column: 1; grid-row: 3; }
+
+  .vb-around-grid { grid-template-columns: 1fr; }
+  .vb-around-card { padding: 24px; min-height: 0; }
+
+  .vb-gal-head { flex-direction: column; align-items: flex-start; gap: 16px; }
+  .vb-gal-grid { columns: 1; gap: 8px; }
+
+  .vb-rev-num .serif-italic { font-size: 64px; }
+  .vb-rev-text { font-size: 18px; }
+
+  .vb-c-val { font-size: 22px; }
+  .vb-contact-cta { flex-direction: column; align-items: stretch; }
+  .vb-contact-cta .btn { justify-content: center; }
+
+  .vb-foot-grid { grid-template-columns: 1fr; gap: 24px; padding: 32px 0; }
+  .vb-foot-bot { flex-direction: column; gap: 8px; padding-top: 16px; }
+
+  .vb-ticker-w { font-size: 28px; }
+  .vb-ticker-w.serif-italic { font-size: 26px; }
+  .vb-ticker-track { gap: 24px; }
+
+  .btn { padding: 12px 18px; font-size: 12px; }
+}

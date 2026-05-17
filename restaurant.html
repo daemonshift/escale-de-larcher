@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Restaurant — L'Escale de Larcher · Cuisine du Périgord</title>
+  <meta name="description" content="Salades, viandes, desserts maison et petits déjeuners en Dordogne. Produits du Périgord, cadre familial et terrasse. Service jeudi → dimanche soir.">
+  <meta name="theme-color" content="#1a2420">
+  <meta property="og:title" content="Restaurant — L'Escale de Larcher">
+  <meta property="og:description" content="Cuisine du Périgord, produits locaux, desserts maison et petits déjeuners.">
+  <meta property="og:type" content="restaurant">
+  <meta property="og:locale" content="fr_FR">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="responsive.css">
+  <link rel="stylesheet" href="pages.css">
+  <link rel="stylesheet" href="enhance.css">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "name": "Restaurant — L'Escale de Larcher",
+      "servesCuisine": "Cuisine du Périgord",
+      "telephone": "+33678052071",
+      "email": "lescaledelarcher@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "853 route du Soleil",
+        "postalCode": "24250",
+        "addressLocality": "Saint-Aubin de Nabirat",
+        "addressCountry": "FR"
+      },
+      "sameAs": [
+        "https://www.instagram.com/lescale.de.larcher",
+        "https://www.facebook.com/share/1ChnmPaHry/"
+      ]
+    }
+  </script>
+</head>
+<body>
+
+  <!-- ── Top banner ─────────────────────────────────────────────── -->
+  <div class="pg-bann">
+    <span class="numtag">★ Périgord · Dordogne</span>
+    <span class="numtag">Service jeudi → dimanche · 18h → 22h30</span>
+    <span class="numtag">+33 6 78 05 20 71</span>
+  </div>
+
+  <!-- ── Nav ────────────────────────────────────────────────────── -->
+  <header class="vb-nav pg-nav">
+    <a href="index.html" class="vb-mark" aria-label="L'Escale de Larcher — accueil">
+      <span class="vb-mark-l">L'ESCALE</span>
+      <span class="vb-mark-c"><span class="serif-italic">de</span></span>
+      <span class="vb-mark-r">LARCHER</span>
+    </a>
+    <nav class="vb-links" aria-label="Navigation principale">
+      <a href="index.html">Accueil</a>
+      <a href="pizzeria.html">Pizzeria</a>
+      <a href="restaurant.html" class="active">Restaurant</a>
+      <a href="index.html#vb-stays">Hébergements</a>
+      <a href="gallery.html">Galerie</a>
+      <a href="index.html#vb-contact">Contact</a>
+    </nav>
+    <a class="btn btn-primary" href="#reserv">Réserver une table</a>
+    <button class="vb-hamburger" id="hamburger" aria-label="Menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <!-- Mobile menu -->
+  <nav class="vb-mobile-menu" id="mobile-menu" aria-label="Navigation mobile">
+    <a href="index.html">Accueil</a>
+    <a href="pizzeria.html">Pizzeria</a>
+    <a href="restaurant.html" class="active">Restaurant</a>
+    <a href="index.html#vb-stays">Hébergements</a>
+    <a href="gallery.html">Galerie</a>
+    <a href="index.html#vb-contact">Contact</a>
+    <a class="btn btn-primary" href="#reserv">Réserver une table</a>
+  </nav>
+
+  <!-- ── Hero ───────────────────────────────────────────────────── -->
+  <section class="pg-hero pg-hero-resto">
+    <div class="pg-hero-l reveal">
+      <span class="numtag">— Le restaurant · Cuisine du Périgord</span>
+      <h1 class="pg-h1">
+        À table,<br>
+        <span class="serif-italic">comme à la</span><br>
+        maison.
+      </h1>
+      <p class="vb-body-serif pg-hero-body">
+        Salades généreuses, viandes du moment, desserts maison et glaces
+        artisanales. Une cuisine simple et honnête, servie en terrasse,
+        dans l'esprit de l'Escale.
+      </p>
+      <div class="pg-hero-cta">
+        <a class="btn btn-primary" href="#reserv">Réserver une table</a>
+        <a class="btn btn-ghost" href="#menu-resto">Voir la carte ↓</a>
+      </div>
+      <div class="pg-hero-stats">
+        <div>
+          <b>Salades</b>
+          <span>& viandes</span>
+        </div>
+        <div>
+          <b>Desserts</b>
+          <span>maison</span>
+        </div>
+        <div>
+          <b>Petits</b>
+          <span>déjeuners</span>
+        </div>
+      </div>
+    </div>
+    <div class="pg-hero-r reveal reveal-delay-1">
+      <div class="img-slot" role="img" aria-label="Table dressée au restaurant">
+        <img src="photos/escale/restaurant/table.jpg" alt="Table dressée au restaurant de L'Escale de Larcher" loading="lazy">
+        <span class="img-slot-label">Table dressée</span>
+      </div>
+      <div class="pg-hero-stamp pg-hero-stamp-resto">
+        <span class="serif-italic">Du Périgord</span>
+        <span class="numtag">à votre table</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Green band ─────────────────────────────────────────────── -->
+  <section class="pg-band" aria-hidden="true">
+    <div class="pg-band-track">
+      <span class="numtag">★</span>
+      <span class="pg-band-w">PRODUITS LOCAUX</span>
+      <span class="numtag">★</span>
+      <span class="pg-band-w serif-italic">de saison</span>
+      <span class="numtag">★</span>
+      <span class="pg-band-w">FAIT MAISON</span>
+      <span class="numtag">★</span>
+      <span class="pg-band-w serif-italic">à partager</span>
+      <span class="numtag">★</span>
+      <span class="pg-band-w">PÉRIGORD</span>
+      <span class="numtag">★</span>
+      <span class="pg-band-w serif-italic">glaces artisanales</span>
+      <span class="numtag">★</span>
+      <span class="pg-band-w">PRODUITS LOCAUX</span>
+      <span class="numtag">★</span>
+      <span class="pg-band-w serif-italic">de saison</span>
+      <span class="numtag">★</span>
+      <span class="pg-band-w">FAIT MAISON</span>
+      <span class="numtag">★</span>
+      <span class="pg-band-w serif-italic">à partager</span>
+      <span class="numtag">★</span>
+      <span class="pg-band-w">PÉRIGORD</span>
+      <span class="numtag">★</span>
+      <span class="pg-band-w serif-italic">glaces artisanales</span>
+      <span class="numtag">★</span>
+    </div>
+  </section>
+
+  <!-- ── Carte ───────────────────────────────────────────────────── -->
+  <section id="menu-resto" class="vb-section pg-menu pg-menu-resto">
+    <div class="pg-menu-head">
+      <span class="numtag">— La carte</span>
+      <h2 class="vb-h2-sm">La <span class="serif-italic">carte.</span></h2>
+    </div>
+
+    <div class="pg-menu-cols">
+
+      <!-- Salades + Viandes + Menu enfant -->
+      <div>
+        <h3 class="pg-menu-cat">— Nos salades</h3>
+
+        <div class="pg-mi">
+          <div class="pg-mi-top">
+            <span class="pg-mi-n">01</span>
+            <span class="pg-mi-name serif">Salade verte 🌿</span>
+            <span class="pg-mi-dots"></span>
+            <span class="pg-mi-price">3,50 €</span>
+          </div>
+        </div>
+
+        <div class="pg-mi">
+          <div class="pg-mi-top">
+            <span class="pg-mi-n">02</span>
+            <span class="pg-mi-name serif">Italienne</span>
+            <span class="pg-mi-dots"></span>
+            <span class="pg-mi-price">16.00 €</span>
+          </div>
+          <div class="pg-mi-bot">
+            <p class="pg-mi-desc">Salade verte, burrata, roquette, olives noires, jambon cru.</p>
+          </div>
+        </div>
+
+        <div class="pg-mi">
+          <div class="pg-mi-top">
+            <span class="pg-mi-n">03</span>
+            <span class="pg-mi-name serif">Fermière</span>
+            <span class="pg-mi-dots"></span>
+            <span class="pg-mi-price">15,50 €</span>
+          </div>
+          <div class="pg-mi-bot">
+            <p class="pg-mi-desc">Salade verte, poulet, tomates, maïs, œuf, oignons rouges.</p>
+          </div>
+        </div>
+
+        <div class="pg-mi">
+          <div class="pg-mi-top">
+            <span class="pg-mi-n">04</span>
+            <span class="pg-mi-name serif">Montagnarde</span>
+            <span class="pg-mi-dots"></span>
+            <span class="pg-mi-price">17,50 €</span>
+          </div>
+          <div class="pg-mi-bot">
+            <p class="pg-mi-desc">Salade verte, tomates, rösti, reblochon, jambon cru, cornichons.</p>
+          </div>
+        </div>
+
+        <div class="pg-mi">
+          <div class="pg-mi-top">
+            <span class="pg-mi-n">05</span>
+            <span class="pg-mi-name serif">Rocamadour</span>
+            <span class="pg-mi-dots"></span>
+            <span class="pg-mi-price">18,00 €</span>
+          </div>
+          <div class="pg-mi-bot">
+            <p class="pg-mi-desc">Salade verte, samoussa de rocamadour, tomates, magret de canard, miel, noix.</p>
+          </div>
+        </div>
+
+        <div class="pg-mi">
+          <div class="pg-mi-top">
+            <span class="pg-mi-n">06</span>
+            <span class="pg-mi-name serif">Gourmandise</span>
+            <span class="pg-mi-dots"></span>
+            <span class="pg-mi-price">21,50 €</span>
+          </div>
+          <div class="pg-mi-bot">
+            <p class="pg-mi-desc">Salade verte, tomates, magret de canard, gésiers, foie gras, oignon rouge, noix.</p>
+          </div>
+        </div>
+
+        <h3 class="pg-menu-cat pg-menu-cat-next">— Nos viandes</h3>
+
+        <div class="pg-mi">
+          <div class="pg-mi-top">
+            <span class="pg-mi-n">07</span>
+            <span class="pg-mi-name serif">Bœuf du moment</span>
+            <span class="pg-mi-dots"></span>
+            <span class="pg-mi-price">23,00 €</span>
+          </div>
+          <div class="pg-mi-bot">
+            <p class="pg-mi-desc">Gratin dauphinois aux truffes, salade.</p>
+          </div>
+        </div>
+
+        <div class="pg-mi">
+          <div class="pg-mi-top">
+            <span class="pg-mi-n">08</span>
+            <span class="pg-mi-name serif">Tartare de bœuf au couteau</span>
+            <span class="pg-mi-dots"></span>
+            <span class="pg-mi-price">20,50 €</span>
+          </div>
+          <div class="pg-mi-bot">
+            <p class="pg-mi-desc">Frites, salade.</p>
+          </div>
+        </div>
+
+        <div class="pg-mi">
+          <div class="pg-mi-top">
+            <span class="pg-mi-n">09</span>
+            <span class="pg-mi-name serif">Magret de canard</span>
+            <span class="pg-mi-dots"></span>
+            <span class="pg-mi-price">22,50 €</span>
+          </div>
+          <div class="pg-mi-bot">
+            <p class="pg-mi-desc">Sauce crème, petits légumes de saison.</p>
+          </div>
+        </div>
+
+        <h3 class="pg-menu-cat pg-menu-cat-next">— Menu enfant</h3>
+
+        <div class="pg-mi">
+          <div class="pg-mi-top">
+            <span class="pg-mi-name serif">Le P'tit Larcher</span>
+            <span class="pg-mi-dots"></span>
+            <span class="pg-mi-price">9,00 €</span>
+          </div>
+          <div class="pg-mi-bot">
+            <p class="pg-mi-desc">Sirop à l'eau, frites, jambon ou steak, 1 boule de glace.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Desserts + Glaces + Chauds -->
+      <div>
+        <h3 class="pg-menu-cat">— Nos desserts maison</h3>
+
+        <div class="pg-mi">
+          <div class="pg-mi-top">
+            <span class="pg-mi-name serif">Dessert du jour</span>
+            <span class="pg-mi-dots"></span>
+            <span class="pg-mi-price">7,00 €</span>
+          </div>
+        </div>
+
+        <div class="pg-mi">
+          <div class="pg-mi-top">
+            <span class="pg-mi-name serif">Mousse au chocolat</span>
+            <span class="pg-mi-dots"></span>
+            <span class="pg-mi-price">7,50 €</span>
+          </div>
+        </div>
+
+        <div class="pg-mi">
+          <div class="pg-mi-top">
+            <span class="pg-mi-name serif">Tiramisu</span>
+            <span class="pg-mi-dots"></span>
+            <span class="pg-mi-price">8,50 €</span>
+          </div>
+        </div>
+
+        <div class="pg-mi">
+          <div class="pg-mi-top">
+            <span class="pg-mi-name serif">Cheesecake</span>
+            <span class="pg-mi-dots"></span>
+            <span class="pg-mi-price">8,50 €</span>
+          </div>
+        </div>
+
+        <h3 class="pg-menu-cat pg-menu-cat-next">— Nos glaces artisanales</h3>
+
+        <div class="pg-mi">
+          <div class="pg-mi-top">
+            <span class="pg-mi-name serif">1 boule</span>
+            <span class="pg-mi-dots"></span>
+            <span class="pg-mi-price">2,80 €</span>
+          </div>
+        </div>
+
+        <div class="pg-mi">
+          <div class="pg-mi-top">
+            <span class="pg-mi-name serif">2 boules</span>
+            <span class="pg-mi-dots"></span>
+            <span class="pg-mi-price">5,40 €</span>
+          </div>
+        </div>
+
+        <div class="pg-mi">
+          <div class="pg-mi-top">
+            <span class="pg-mi-name serif">3 boules</span>
+            <span class="pg-mi-dots"></span>
+            <span class="pg-mi-price">7,50 €</span>
+          </div>
+        </div>
+
+        <div class="pg-mi">
+          <div class="pg-mi-top">
+            <span class="pg-mi-name serif">Sup. chantilly maison</span>
+            <span class="pg-mi-dots"></span>
+            <span class="pg-mi-price">1,00 €</span>
+          </div>
+        </div>
+
+        <h3 class="pg-menu-cat pg-menu-cat-next">— Nos boissons chaudes</h3>
+
+        <div class="pg-mi">
+          <div class="pg-mi-top">
+            <span class="pg-mi-name serif">Café</span>
+            <span class="pg-mi-dots"></span>
+            <span class="pg-mi-price">1,50 €</span>
+          </div>
+        </div>
+
+        <div class="pg-mi">
+          <div class="pg-mi-top">
+            <span class="pg-mi-name serif">Grand café</span>
+            <span class="pg-mi-dots"></span>
+            <span class="pg-mi-price">2,80 €</span>
+          </div>
+        </div>
+
+        <div class="pg-mi">
+          <div class="pg-mi-top">
+            <span class="pg-mi-name serif">Noisette</span>
+            <span class="pg-mi-dots"></span>
+            <span class="pg-mi-price">1,70 €</span>
+          </div>
+        </div>
+
+        <div class="pg-mi">
+          <div class="pg-mi-top">
+            <span class="pg-mi-name serif">Crème</span>
+            <span class="pg-mi-dots"></span>
+            <span class="pg-mi-price">2,80 €</span>
+          </div>
+        </div>
+
+        <div class="pg-mi">
+          <div class="pg-mi-top">
+            <span class="pg-mi-name serif">Chocolat chaud</span>
+            <span class="pg-mi-dots"></span>
+            <span class="pg-mi-price">3,50 €</span>
+          </div>
+        </div>
+
+        <div class="pg-mi">
+          <div class="pg-mi-top">
+            <span class="pg-mi-name serif">Thé</span>
+            <span class="pg-mi-dots"></span>
+            <span class="pg-mi-price">2,50 €</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── Petits déjeuners ────────────────────────────────────────── -->
+  <section class="vb-section pg-menu pg-menu-resto pg-menu-alt-bg">
+    <div class="pg-menu-head">
+      <span class="numtag">— Le matin</span>
+      <h2 class="vb-h2-sm">Nos petits <span class="serif-italic">déjeuners.</span></h2>
+    </div>
+
+    <div class="pg-menu-cols">
+      <div>
+        <h3 class="pg-menu-cat">— Boissons chaudes</h3>
+
+        <div class="pg-mi">
+          <div class="pg-mi-top">
+            <span class="pg-mi-name serif">Café</span>
+            <span class="pg-mi-dots"></span>
+            <span class="pg-mi-price">1,50 €</span>
+          </div>
+        </div>
+
+        <div class="pg-mi">
+          <div class="pg-mi-top">
+            <span class="pg-mi-name serif">Grand café</span>
+            <span class="pg-mi-dots"></span>
+            <span class="pg-mi-price">2,80 €</span>
+          </div>
+        </div>
+
+        <div class="pg-mi">
+          <div class="pg-mi-top">
+            <span class="pg-mi-name serif">Noisette</span>
+            <span class="pg-mi-dots"></span>
+            <span class="pg-mi-price">1,70 €</span>
+          </div>
+        </div>
+
+        <div class="pg-mi">
+          <div class="pg-mi-top">
+            <span class="pg-mi-name serif">Crème</span>
+            <span class="pg-mi-dots"></span>
+            <span class="pg-mi-price">2,80 €</span>
+          </div>
+        </div>
+
+        <div class="pg-mi">
+          <div class="pg-mi-top">
+            <span class="pg-mi-name serif">Chocolat chaud</span>
+            <span class="pg-mi-dots"></span>
+            <span class="pg-mi-price">3,50 €</span>
+          </div>
+        </div>
+
+        <div class="pg-mi">
+          <div class="pg-mi-top">
+            <span class="pg-mi-name serif">Thé</span>
+            <span class="pg-mi-dots"></span>
+            <span class="pg-mi-price">2,80 €</span>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <h3 class="pg-menu-cat">— À manger</h3>
+
+        <div class="pg-mi">
+          <div class="pg-mi-top">
+            <span class="pg-mi-name serif">Pain</span>
+            <span class="pg-mi-dots"></span>
+            <span class="pg-mi-price">2,00 €</span>
+          </div>
+        </div>
+
+        <div class="pg-mi">
+          <div class="pg-mi-top">
+            <span class="pg-mi-name serif">Croissant au beurre</span>
+            <span class="pg-mi-dots"></span>
+            <span class="pg-mi-price">1,50 €</span>
+          </div>
+        </div>
+
+        <div class="pg-mi">
+          <div class="pg-mi-top">
+            <span class="pg-mi-name serif">Pain au chocolat <span class="pg-mi-note">(ou chocolatine)</span></span>
+            <span class="pg-mi-dots"></span>
+            <span class="pg-mi-price">1,50 €</span>
+          </div>
+        </div>
+
+        <div class="pg-mi">
+          <div class="pg-mi-top">
+            <span class="pg-mi-name serif">Jus de fruit</span>
+            <span class="pg-mi-dots"></span>
+            <span class="pg-mi-price">3,00 €</span>
+          </div>
+          <div class="pg-mi-bot">
+            <p class="pg-mi-desc">Pomme, orange, acaï ou ananas.</p>
+          </div>
+        </div>
+
+        <h3 class="pg-menu-cat pg-menu-cat-next">— Formule gourmande</h3>
+
+        <div class="pg-mi">
+          <div class="pg-mi-top">
+            <span class="pg-mi-name serif">Boisson chaude + viennoiserie + jus + ½ pain beurre/confiture</span>
+            <span class="pg-mi-dots"></span>
+            <span class="pg-mi-price">9,50 €</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Photos ──────────────────────────────────────────────────── -->
+  <section class="vb-section pg-gal-section">
+    <div class="pg-gal-grid reveal">
+      <div class="pg-g-1">
+        <div class="img-slot" role="img" aria-label="Salade mojito du restaurant">
+          <img src="photos/escale/restaurant/salade-mojito.jpg" alt="Salade fraîche servie au restaurant de L'Escale de Larcher" loading="lazy">
+          <span class="img-slot-label">Salade fraîche</span>
+        </div>
+      </div>
+      <div class="pg-g-2">
+        <div class="img-slot" role="img" aria-label="Produit local">
+          <img src="photos/jus de pomme local.jpg" alt="Produit local de L'Escale de Larcher" loading="lazy">
+          <span class="img-slot-label">Produit local</span>
+        </div>
+      </div>
+      <div class="pg-g-3">
+        <div class="img-slot" role="img" aria-label="Terrasse du restaurant">
+          <img src="photos/terrasse restaurant.jpg" alt="Terrasse du restaurant en lumière du soir" loading="lazy">
+          <span class="img-slot-label">Terrasse</span>
+        </div>
+      </div>
+      <div class="pg-g-4">
+        <div class="img-slot" role="img" aria-label="Vue depuis la terrasse">
+          <img src="photos/vue terrasse restaurant.png" alt="Vue depuis la terrasse du restaurant" loading="lazy">
+          <span class="img-slot-label">Vue terrasse</span>
+        </div>
+      </div>
+      <div class="pg-g-6">
+        <div class="img-slot" role="img" aria-label="Paysage autour du domaine">
+          <img src="photos/point de vue.jpeg" alt="Paysage autour de L'Escale de Larcher" loading="lazy">
+          <span class="img-slot-label">Le domaine</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CTA ────────────────────────────────────────────────────── -->
+  <section id="reserv" class="pg-practical">
+    <div class="pg-practical-grid">
+      <div>
+        <span class="numtag">— Service</span>
+        <h3 class="pg-pr-t">Vendredi → dimanche</h3>
+        <h3 class="pg-pr-t">Tous les soirs en juillet &amp; août</h3>
+        <p>18h00 → 22h30</p>
+      </div>
+      <div>
+        <span class="numtag">— Réserver</span>
+        <h3 class="pg-pr-t"><a href="tel:+33678052071" class="pg-pr-link">+33 6 78 05 20 71</a></h3>
+        <p>Réservation conseillée<br>Table simple, table longue, terrasse — à votre convenance</p>
+      </div>
+      <div>
+        <span class="numtag">— Petits déjeuners</span>
+        <h3 class="pg-pr-t">Sur place</h3>
+        <p>Pour les hébergés du domaine<br>À demander à l'accueil</p>
+      </div>
+    </div>
+    <div class="pg-cta-band">
+      <h3 class="vb-h2-sm">
+        Réservez votre table — <span class="serif-italic">on garde votre place.</span>
+      </h3>
+      <a class="btn btn-primary" href="tel:+33678052071">Réserver maintenant</a>
+    </div>
+  </section>
+
+  <!-- ── Footer ─────────────────────────────────────────────────── -->
+  <footer class="pg-foot">
+    <div class="pg-foot-grid">
+      <div>
+        <div class="pg-foot-big">L'ESCALE <span class="serif-italic">de</span> LARCHER</div>
+        <span class="numtag">853 route du Soleil · 24250 Saint-Aubin de Nabirat</span>
+        <span class="numtag">Périgord · Dordogne</span>
+        <a class="btn-link" href="https://www.google.com/maps/search/?api=1&query=853%20route%20du%20Soleil%2C%2024250%20Saint-Aubin%20de%20Nabirat%2C%20France" target="_blank" rel="noopener">Itinéraire Google Maps →</a>
+      </div>
+      <div>
+        <span class="numtag">Service</span>
+        <span>Ven · Sam · Dim</span>
+        <span>18h00 → 22h30</span>
+        <span>Tous les soirs en juillet &amp; août</span>
+      </div>
+      <div>
+        <span class="numtag">Réserver</span>
+        <span><a href="tel:+33678052071">+33 6 78 05 20 71</a></span>
+        <a href="mailto:lescaledelarcher@gmail.com">lescaledelarcher@gmail.com</a>
+      </div>
+      <div>
+        <span class="numtag">Suivre</span>
+        <a href="https://www.instagram.com/lescale.de.larcher" target="_blank" rel="noopener">Instagram @lescale.de.larcher</a>
+        <a href="https://www.facebook.com/share/1ChnmPaHry/" target="_blank" rel="noopener">Facebook</a>
+      </div>
+    </div>
+    <div class="pg-foot-bottom">
+      <span class="numtag">© 2026 — L'Escale de Larcher. Tous droits réservés.</span>
+      <span class="numtag">Site réalisé par daemonshift ✦</span>
+    </div>
+  </footer>
+
+  <script src="enhance.js" defer></script>
+
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const mobileMenu = document.getElementById('mobile-menu');
+    hamburger.addEventListener('click', () => {
+      const isOpen = mobileMenu.classList.toggle('open');
+      hamburger.setAttribute('aria-expanded', isOpen);
+    });
+    document.addEventListener('click', (e) => {
+      if (!hamburger.contains(e.target) && !mobileMenu.contains(e.target)) {
+        mobileMenu.classList.remove('open');
+        hamburger.setAttribute('aria-expanded', false);
+      }
+    });
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        mobileMenu.classList.remove('open');
+        hamburger.setAttribute('aria-expanded', false);
+      }
+    });
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Galerie — L'Escale de Larcher · Périgord</title>
+  <meta name="description" content="L'album du domaine — bois, animaux, hébergements, table et coucher de soleil sur la vallée du Périgord.">
+  <meta name="theme-color" content="#1a2420">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="responsive.css">
+  <link rel="stylesheet" href="pages.css">
+  <link rel="stylesheet" href="enhance.css">
+</head>
+<body class="gl-page">
+
+  <!-- Top banner -->
+  <div class="pg-bann">
+    <span class="numtag">★ Périgord · Dordogne</span>
+    <span class="numtag">L'album du domaine</span>
+    <span class="numtag">+33 6 78 05 20 71</span>
+  </div>
+
+  <!-- Nav -->
+  <header class="vb-nav pg-nav">
+    <a href="index.html" class="vb-mark" aria-label="L'Escale de Larcher — accueil">
+      <span class="vb-mark-l">L'ESCALE</span>
+      <span class="vb-mark-c"><span class="serif-italic">de</span></span>
+      <span class="vb-mark-r">LARCHER</span>
+    </a>
+    <nav class="vb-links" aria-label="Navigation principale">
+      <a href="index.html">Accueil</a>
+      <a href="pizzeria.html">Pizzeria</a>
+      <a href="restaurant.html">Restaurant</a>
+      <a href="index.html#vb-stays">Hébergements</a>
+      <a href="gallery.html" class="active">Galerie</a>
+      <a href="index.html#vb-contact">Contact</a>
+    </nav>
+    <a class="btn btn-primary" href="index.html#vb-contact">Réserver</a>
+    <button class="vb-hamburger" id="hamburger" aria-label="Menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <nav class="vb-mobile-menu" id="mobile-menu" aria-label="Navigation mobile">
+    <a href="index.html">Accueil</a>
+    <a href="pizzeria.html">Pizzeria</a>
+    <a href="restaurant.html">Restaurant</a>
+    <a href="index.html#vb-stays">Hébergements</a>
+    <a href="gallery.html" class="active">Galerie</a>
+    <a href="index.html#vb-contact">Contact</a>
+    <a class="btn btn-primary" href="index.html#vb-contact">Réserver</a>
+  </nav>
+
+  <!-- Hero -->
+  <section class="gl-hero">
+    <div class="reveal">
+      <span class="numtag">— L'album</span>
+      <h1>
+        Un domaine<br>
+        <span class="serif-italic">en images.</span>
+      </h1>
+    </div>
+    <p class="reveal reveal-delay-1">
+      Les bois, les animaux, la piscine au coucher de soleil, les pizzas
+      du jeudi soir, la vallée. Cliquez sur n'importe quelle photo
+      pour la voir en plein écran.
+    </p>
+  </section>
+
+  <!-- Filter chips -->
+  <div class="gl-filter reveal" id="gl-filter">
+    <button class="gl-chip is-active" data-cat="all">Tout</button>
+    <button class="gl-chip" data-cat="domaine">Le domaine</button>
+    <button class="gl-chip" data-cat="hebergement">Hébergements</button>
+    <button class="gl-chip" data-cat="table">Table &amp; pizzeria</button>
+    <button class="gl-chip" data-cat="alentours">Alentours</button>
+  </div>
+
+  <!-- Masonry grid -->
+  <div class="gl-grid" id="gl-grid">
+
+    <figure data-cat="domaine">
+      <img src="photos/escale/accueil/coucherDeSoleil.jpg" alt="Coucher de soleil sur le domaine" loading="lazy">
+      <figcaption>— Coucher de soleil</figcaption>
+    </figure>
+
+    <figure data-cat="domaine">
+      <img src="photos/escale/gallerie/cheval.JPG" alt="Cheval du domaine" loading="lazy">
+      <figcaption>— Le cheval</figcaption>
+    </figure>
+
+    <figure data-cat="hebergement">
+      <img src="photos/escale/exterieur/gîtes.jpg" alt="Gîte de L'Escale de Larcher" loading="lazy">
+      <figcaption>— Les gîtes</figcaption>
+    </figure>
+
+    <figure data-cat="table">
+      <img src="photos/escale/pizzeria/grosPlanPizza.JPG" alt="Pizza maison" loading="lazy">
+      <figcaption>— Pizza maison</figcaption>
+    </figure>
+
+    <figure data-cat="domaine">
+      <img src="photos/escale/accueil/piscine-coucher-de-soleil.JPG" alt="Piscine au coucher de soleil" loading="lazy">
+      <figcaption>— Piscine</figcaption>
+    </figure>
+
+    <figure data-cat="domaine">
+      <img src="photos/escale/gallerie/animauxBasseCour.JPG" alt="Animaux de la basse-cour" loading="lazy">
+      <figcaption>— La basse-cour</figcaption>
+    </figure>
+
+    <figure data-cat="table">
+      <img src="photos/escale/restaurant/table.jpg" alt="Table dressée au restaurant" loading="lazy">
+      <figcaption>— Table dressée</figcaption>
+    </figure>
+
+    <figure data-cat="domaine">
+      <img src="photos/escale/gallerie/chêvre.JPG" alt="Chèvre du domaine" loading="lazy">
+      <figcaption>— La chèvre</figcaption>
+    </figure>
+
+    <figure data-cat="hebergement">
+      <img src="photos/escale/exterieur/emplacement tentes.jpg" alt="Emplacement tentes sous les arbres" loading="lazy">
+      <figcaption>— Tentes sous bois</figcaption>
+    </figure>
+
+    <figure data-cat="alentours">
+      <img src="photos/point de vue.jpeg" alt="Point de vue sur la vallée" loading="lazy">
+      <figcaption>— La vallée</figcaption>
+    </figure>
+
+    <figure data-cat="table">
+      <img src="photos/escale/pizzeria/pateAPizza.JPG" alt="Pâte à pizza maison" loading="lazy">
+      <figcaption>— Pâte maison</figcaption>
+    </figure>
+
+    <figure data-cat="domaine">
+      <img src="photos/escale/accueil/cosy terrasse.jpeg" alt="Terrasse cosy du domaine" loading="lazy">
+      <figcaption>— La terrasse</figcaption>
+    </figure>
+
+    <figure data-cat="hebergement">
+      <img src="photos/escale/exterieur/emplacement van.jpg" alt="Emplacement vans avec vue" loading="lazy">
+      <figcaption>— Emplacement van</figcaption>
+    </figure>
+
+    <figure data-cat="table">
+      <img src="photos/escale/pizzeria/grosPlanPizza2.JPG" alt="Pizza artisanale" loading="lazy">
+      <figcaption>— Artisanale</figcaption>
+    </figure>
+
+    <figure data-cat="alentours">
+      <img src="photos/escale/accueil/vallée.jpg" alt="Vue sur la vallée du Périgord" loading="lazy">
+      <figcaption>— Vue Périgord</figcaption>
+    </figure>
+
+    <figure data-cat="table">
+      <img src="photos/escale/pizzeria/mojitosalade.jpg" alt="Mojito et salade en terrasse" loading="lazy">
+      <figcaption>— Apéro en terrasse</figcaption>
+    </figure>
+
+    <figure data-cat="domaine">
+      <img src="photos/escale/pizzeria/enfant piscine.png" alt="Enfants à la piscine" loading="lazy">
+      <figcaption>— Bain d'été</figcaption>
+    </figure>
+
+    <figure data-cat="table">
+      <img src="photos/terrasse pizzeria.jpeg" alt="Terrasse de la pizzeria" loading="lazy">
+      <figcaption>— Terrasse pizzeria</figcaption>
+    </figure>
+
+    <figure data-cat="domaine">
+      <img src="photos/nez chval.jpg" alt="Cheval — gros plan" loading="lazy">
+      <figcaption>— Le cheval, de près</figcaption>
+    </figure>
+
+    <figure data-cat="domaine">
+      <img src="photos/piscine.jpg" alt="La piscine du domaine" loading="lazy">
+      <figcaption>— La piscine</figcaption>
+    </figure>
+
+    <figure data-cat="table">
+      <img src="photos/planche de charcuterie.jpeg" alt="Planche de charcuterie" loading="lazy">
+      <figcaption>— Planche du Périgord</figcaption>
+    </figure>
+
+    <figure data-cat="table">
+      <img src="photos/vue terrasse restaurant.png" alt="Vue depuis la terrasse du restaurant" loading="lazy">
+      <figcaption>— Vue terrasse</figcaption>
+    </figure>
+
+    <figure data-cat="table">
+      <img src="photos/jus de pomme local.jpg" alt="Jus de pomme local" loading="lazy">
+      <figcaption>— Produit local</figcaption>
+    </figure>
+
+  </div>
+
+  <!-- Footer (compact, same as pizzeria/restaurant) -->
+  <footer class="pg-foot">
+    <div class="pg-foot-grid">
+      <div>
+        <div class="pg-foot-big">L'ESCALE <span class="serif-italic">de</span> LARCHER</div>
+        <span class="numtag">853 route du Soleil · 24250 Saint-Aubin de Nabirat</span>
+        <span class="numtag">Périgord · Dordogne</span>
+        <a class="btn-link" href="https://www.google.com/maps/search/?api=1&query=853%20route%20du%20Soleil%2C%2024250%20Saint-Aubin%20de%20Nabirat%2C%20France" target="_blank" rel="noopener">Itinéraire Google Maps →</a>
+      </div>
+      <div>
+        <span class="numtag">Le lieu</span>
+        <a href="index.html#vb-stays">Hébergements</a>
+        <a href="pizzeria.html">Pizzeria</a>
+        <a href="restaurant.html">Restaurant</a>
+      </div>
+      <div>
+        <span class="numtag">Réserver</span>
+        <a href="tel:+33678052071">+33 6 78 05 20 71</a>
+        <a href="mailto:lescaledelarcher@gmail.com">lescaledelarcher@gmail.com</a>
+      </div>
+      <div>
+        <span class="numtag">Suivre</span>
+        <a href="https://www.instagram.com/lescale.de.larcher" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://www.facebook.com/share/1ChnmPaHry/" target="_blank" rel="noopener">Facebook</a>
+      </div>
+    </div>
+    <div class="pg-foot-bottom">
+      <span class="numtag">© 2026 — L'Escale de Larcher. Tous droits réservés.</span>
+      <span class="numtag">Site réalisé par daemonshift ✦</span>
+    </div>
+  </footer>
+
+  <script>
+    // Hamburger
+    const hamburger = document.getElementById('hamburger');
+    const mobileMenu = document.getElementById('mobile-menu');
+    hamburger.addEventListener('click', () => {
+      const isOpen = mobileMenu.classList.toggle('open');
+      hamburger.setAttribute('aria-expanded', isOpen);
+    });
+    document.addEventListener('click', (e) => {
+      if (!hamburger.contains(e.target) && !mobileMenu.contains(e.target)) {
+        mobileMenu.classList.remove('open');
+        hamburger.setAttribute('aria-expanded', false);
+      }
+    });
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        mobileMenu.classList.remove('open');
+        hamburger.setAttribute('aria-expanded', false);
+      }
+    });
+
+    // Filter
+    const chips = document.querySelectorAll('.gl-chip');
+    const figures = document.querySelectorAll('.gl-grid > figure');
+    chips.forEach(chip => {
+      chip.addEventListener('click', () => {
+        chips.forEach(c => c.classList.remove('is-active'));
+        chip.classList.add('is-active');
+        const cat = chip.dataset.cat;
+        figures.forEach(f => {
+          if (cat === 'all' || f.dataset.cat === cat) {
+            f.classList.remove('is-hidden');
+          } else {
+            f.classList.add('is-hidden');
+          }
+        });
+      });
+    });
+  </script>
+
+  <script src="enhance.js" defer></script>
+
+</body>
+</html>
