@@ -204,16 +204,49 @@
     io.observe(rating);
   }
 
-  // ── 6) Mobile menu — body lock + body class for X morph ──
+  // ── 6) Mobile menu — synced state + body lock ────────────
   const hamburger = document.getElementById('hamburger');
   const mobileMenu = document.getElementById('mobile-menu');
   if (hamburger && mobileMenu) {
-    const obs = new MutationObserver(() => {
-      const isOpen = mobileMenu.classList.contains('open');
+    hamburger.setAttribute('aria-controls', mobileMenu.id);
+
+    function setMobileMenuOpen(isOpen, shouldFocusButton) {
+      mobileMenu.classList.toggle('open', isOpen);
+      hamburger.setAttribute('aria-expanded', String(isOpen));
       document.body.classList.toggle('menu-open', isOpen);
       document.body.classList.toggle('no-scroll', isOpen);
+      if (!isOpen && shouldFocusButton) hamburger.focus();
+    }
+
+    setMobileMenuOpen(false, false);
+
+    hamburger.addEventListener('click', (e) => {
+      e.stopPropagation();
+      setMobileMenuOpen(!mobileMenu.classList.contains('open'), false);
     });
-    obs.observe(mobileMenu, { attributes: true, attributeFilter: ['class'] });
+
+    mobileMenu.addEventListener('click', (e) => {
+      const link = e.target.closest('a');
+      if (link) setMobileMenuOpen(false, false);
+    });
+
+    document.addEventListener('click', (e) => {
+      if (!mobileMenu.classList.contains('open')) return;
+      if (hamburger.contains(e.target) || mobileMenu.contains(e.target)) return;
+      setMobileMenuOpen(false, false);
+    });
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && mobileMenu.classList.contains('open')) {
+        setMobileMenuOpen(false, true);
+      }
+    });
+
+    window.addEventListener('resize', () => {
+      if (window.matchMedia('(min-width: 1081px)').matches) {
+        setMobileMenuOpen(false, false);
+      }
+    });
   }
 
   // ── 7) Replace scrollIntoView with a safer scrollTo ──────
@@ -227,6 +260,8 @@
       // Close mobile menu if open
       if (mobileMenu && mobileMenu.classList.contains('open')) {
         mobileMenu.classList.remove('open');
+        if (hamburger) hamburger.setAttribute('aria-expanded', 'false');
+        document.body.classList.remove('menu-open', 'no-scroll');
       }
       const y = target.getBoundingClientRect().top + window.scrollY - 0;
       window.scrollTo({ top: y, behavior: 'smooth' });

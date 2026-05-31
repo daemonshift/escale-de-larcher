@@ -38,7 +38,7 @@
       <a href="index.html#vb-contact">Contact</a>
     </nav>
     <a class="btn btn-primary" href="index.html#vb-contact">Réserver</a>
-    <button class="vb-hamburger" id="hamburger" aria-label="Menu" aria-expanded="false">
+    <button class="vb-hamburger" id="hamburger" type="button" aria-label="Menu" aria-controls="mobile-menu" aria-expanded="false">
       <span></span><span></span><span></span>
     </button>
   </header>
@@ -231,26 +231,6 @@
   </footer>
 
   <script>
-    // Hamburger
-    const hamburger = document.getElementById('hamburger');
-    const mobileMenu = document.getElementById('mobile-menu');
-    hamburger.addEventListener('click', () => {
-      const isOpen = mobileMenu.classList.toggle('open');
-      hamburger.setAttribute('aria-expanded', isOpen);
-    });
-    document.addEventListener('click', (e) => {
-      if (!hamburger.contains(e.target) && !mobileMenu.contains(e.target)) {
-        mobileMenu.classList.remove('open');
-        hamburger.setAttribute('aria-expanded', false);
-      }
-    });
-    document.addEventListener('keydown', (e) => {
-      if (e.key === 'Escape') {
-        mobileMenu.classList.remove('open');
-        hamburger.setAttribute('aria-expanded', false);
-      }
-    });
-
     // Filter
     const chips = document.querySelectorAll('.gl-chip');
     const figures = document.querySelectorAll('.gl-grid > figure');

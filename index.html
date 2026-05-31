@@ -64,7 +64,7 @@
       <a href="#vb-contact">06 Contact</a>
     </nav>
     <a class="btn btn-primary" href="#vb-contact">Réserver</a>
-    <button class="vb-hamburger" id="hamburger" aria-label="Menu" aria-expanded="false">
+    <button class="vb-hamburger" id="hamburger" type="button" aria-label="Menu" aria-controls="mobile-menu" aria-expanded="false">
       <span></span><span></span><span></span>
     </button>
   </header>
@@ -72,17 +72,17 @@
   <!-- Mobile menu -->
   <nav class="vb-mobile-menu" id="mobile-menu" aria-label="Navigation mobile">
     <span class="numtag-divider">— Le domaine</span>
-    <a href="#vb-domain" onclick="closeMobileMenu()">Le domaine</a>
-    <a href="#vb-stays" onclick="closeMobileMenu()">Hébergements</a>
-    <a href="#vb-story" onclick="closeMobileMenu()">Notre histoire</a>
-    <a href="#vb-around" onclick="closeMobileMenu()">Alentours</a>
+    <a href="#vb-domain">Le domaine</a>
+    <a href="#vb-stays">Hébergements</a>
+    <a href="#vb-story">Notre histoire</a>
+    <a href="#vb-around">Alentours</a>
     <span class="numtag-divider">— Table &amp; bar</span>
     <a href="pizzeria.html">Pizzeria</a>
     <a href="restaurant.html">Restaurant</a>
     <span class="numtag-divider">— Album &amp; contact</span>
     <a href="gallery.html">Galerie</a>
-    <a href="#vb-contact" onclick="closeMobileMenu()">Contact</a>
-    <a class="btn btn-primary" href="#vb-contact" onclick="closeMobileMenu()">Réserver</a>
+    <a href="#vb-contact">Contact</a>
+    <a class="btn btn-primary" href="#vb-contact">Réserver</a>
   </nav>
 
   <!-- ── Hero ───────────────────────────────────────────────────── -->
@@ -766,26 +766,6 @@ Je recommande vivement »</p>
   </footer>
 
   <script>
-    // Mobile menu toggle
-    const hamburger = document.getElementById('hamburger');
-    const mobileMenu = document.getElementById('mobile-menu');
-
-    function closeMobileMenu() {
-      mobileMenu.classList.remove('open');
-      hamburger.setAttribute('aria-expanded', 'false');
-    }
-
-    hamburger.addEventListener('click', () => {
-      const isOpen = mobileMenu.classList.toggle('open');
-      hamburger.setAttribute('aria-expanded', isOpen);
-    });
-
-    document.addEventListener('click', (e) => {
-      if (!hamburger.contains(e.target) && !mobileMenu.contains(e.target)) {
-        closeMobileMenu();
-      }
-    });
-
     const nav = document.querySelector('.vb-nav');
     const observer = new IntersectionObserver(
       ([e]) => nav.classList.toggle('scrolled', !e.isIntersecting),
