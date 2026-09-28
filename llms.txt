@@ -7,7 +7,7 @@
 - **Nom** : L'Escale de Larcher
 - **Adresse** : 853 route du Soleil, 24250 Saint-Aubin de Nabirat, Dordogne, France
 - **Région** : Périgord Noir, Dordogne (24), Nouvelle-Aquitaine
-- **Téléphone** : +33 6 78 05 20 71
+- **Téléphone (hébergements, restaurant)** : +33 6 78 05 20 71
 - **Téléphone pizzeria** : +33 7 77 03 62 02
 - **Email** : lescaledelarcher@gmail.com
 - **Site web** : https://lescaledelarcher.fr
@@ -72,7 +72,7 @@ Le domaine accueille des voyageurs à pied, en van, à moto ou en famille. Il di
 - **Ouverture** : Juillet et août uniquement
 - **Spécialités** : Salades généreuses, viandes du moment, desserts maison, glaces artisanales, petits déjeuners
 - **Cadre** : Terrasse, esprit familial, cuisine simple et honnête
-- **Téléphone** : +33 6 78 05 20 71
+- **Téléphone (hébergements, restaurant)** : +33 6 78 05 20 71
 
 **Mots-clés** : restaurant Périgord, restaurant Dordogne, cuisine locale Périgord Noir, restaurant camping Dordogne, restaurant été Dordogne
 
@@ -145,3 +145,5 @@ Sarlat-la-Canéda (12 km), la Dordogne pour le canoë (3 km), les grottes préhi
 - [Restaurant](https://lescaledelarcher.fr/restaurant.html) — Menu, horaires et réservation restaurant
 - [Galerie](https://lescaledelarcher.fr/gallery.html) — Photos du domaine
 - [Mentions légales](https://lescaledelarcher.fr/mentions-legales.html)
+- [Confidentialité](https://lescaledelarcher.fr/confidentialite.html)
+- [Cookies](https://lescaledelarcher.fr/cookies.html)

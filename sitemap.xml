@@ -31,6 +31,12 @@
     <priority>0.2</priority>
   </url>
   <url>
+    <loc>https://lescaledelarcher.fr/cookies.html</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  <url>
     <loc>https://lescaledelarcher.fr/confidentialite.html</loc>
     <lastmod>2026-05-27</lastmod>
     <changefreq>yearly</changefreq>
